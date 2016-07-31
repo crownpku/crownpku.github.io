@@ -1,14 +1,8 @@
 ---
 layout: post
-title: Notes on Gradient Descent
+title: Notes on Gradient Methods
 published: true
 ---
-
-# Notes on Gradient Methods
-
-WANG Guan
-
-2015.8
 
 Optimization methods play a critical role in machine learning algorithms. In this article we try to go through different gradient methods that are used for searching for the optimization value of a target function.
 
