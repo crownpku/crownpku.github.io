@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Notes on Gradient Methods
 published: true
 ---
