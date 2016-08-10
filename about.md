@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about me!
+如果我的文章帮助了你，你又心情不错的话，打个赏呗~
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[crownpku@gmail.com](mailto:crownpku@gmail.com)
+![支付宝](/image/dashang/zhifubao.jpg)
+![微信](/image/dashang/weixin.jpg)
