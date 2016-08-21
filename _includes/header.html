@@ -1,9 +1,19 @@
-<header class="mdl-layout__header">
-  <div class="mdl-layout__header-row">
-    <span class="mdl-layout-title"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span>
-    <div class="mdl-layout-spacer"></div>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link site-tab" href="{{ site.url }}/about">About</a>
-    </nav>
+
+<div class="wrapper">
+  <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
+</div>
+<div class="wrapper site-description">
+<center>  {{site.description}} </center>
+</div>
+<div class="wrapper">
+  <div class="trigger site-navigation">
+    <a class="page-link" href="{{site.url}}{{site.baseurl}}">HOME</a><span class="exclamationMark">/</span>
+
+    {% for sitePage in site.pages %}
+    {% if sitePage.title %}
+
+    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a><span class="exclamationMark">/</span>
+    {% endif %}
+    {% endfor %}
   </div>
-</header>
+</div>
