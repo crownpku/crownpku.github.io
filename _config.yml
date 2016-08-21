@@ -2,11 +2,28 @@
 # This file contains configuration flags to customize your site
 #
 
+#For Material Design
+# Site settings
+title: Guan Wang
+email: crownpku@gmail.com
+paginate: 4
+paginate_path: "page/:num/"
+
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+gems: [jekyll-paginate]
+rouge: pygments
+
+
+
 # Name of your site (displayed in the header)
 name: Guan Wang
 
 # Short bio or description (displayed in the header)
-description: 生活就是折折腾腾
+description: "生活就是折折腾腾"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/2224389?v=3&s=96
