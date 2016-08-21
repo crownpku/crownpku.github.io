@@ -9,9 +9,9 @@
 title: crownpku
 email: crownpku@gmail.com
 description: 羊肉泡馍与糖蒜
-baseurl: "“ # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://crownpku.com" # the base hostname & protocol for your site
-github_username:  crownpku
+github_username: crownpku
 
 # Build settings
 markdown: kramdown
