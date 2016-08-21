@@ -9,7 +9,7 @@
 title: 羊肉泡馍与糖蒜
 email: crownpku@gmail.com
 description: 生活就是折折腾腾
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "“ # the subpath of your site, e.g. /blog
 url: "http://crownpku.com" # the base hostname & protocol for your site
 github_username:  crownpku
 
