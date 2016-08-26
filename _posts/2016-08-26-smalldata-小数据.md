@@ -12,7 +12,7 @@ published: true
 
 详情请入：
 
-https://github.com/crownpku/small_data
+[https://github.com/crownpku/small_data]
 
 
 
