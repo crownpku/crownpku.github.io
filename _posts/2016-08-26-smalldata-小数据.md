@@ -10,9 +10,7 @@ published: true
 
 把平常工作中需要随手用到的一些有用的小数据集公开在这里，不断增补中！
 
-详情请入：
-
-[https://github.com/crownpku/small_data]
+详情请入[Github Page](https://github.com/crownpku/small_data)
 
 
 
