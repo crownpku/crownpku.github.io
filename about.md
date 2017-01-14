@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-如果我的文章帮助了你，打个赏呗~
-
-![支付宝](/images/dashang/zhifubao.jpg)
-![微信](/images/dashang/weixin.jpg)
+主页：www.crownpku.com
+微博：冠crown
+微信公众号：erguwang
+![微信公众号](/images/dashang/gongzhonghao.jpg)
