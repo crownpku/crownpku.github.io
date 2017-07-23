@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-[主页](www.crownpku.com)
+[主页](http://www.crownpku.com)
 
 [微博](http://www.weibo.com/wongan)
 
