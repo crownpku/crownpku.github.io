@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	{% include disqus.html %}
+	
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1>
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
@@ -20,5 +20,10 @@ layout: default
     {{ content }}
   </div>
 
-
 </article>
+
+
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}
+
