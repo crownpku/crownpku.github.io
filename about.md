@@ -10,4 +10,5 @@ permalink: /about/
 
 微信公众号：erguwang
 
+
 ![微信公众号](/images/dashang/gongzhonghao.jpg)
