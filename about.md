@@ -4,13 +4,9 @@ title: About
 permalink: /about/
 ---
 
-主页：www.crownpku.com
+[主页](www.crownpku.com)
 
-
-微博：王尔古
-
+[微博](http://www.weibo.com/wongan)
 
 微信公众号：erguwang
-
-
 ![微信公众号](/images/dashang/gongzhonghao.jpg)
