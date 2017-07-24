@@ -17,7 +17,7 @@ I hold an MPhil degree in Physics from [the Hong Kong University of Science and 
 </sup></sub>
 
 <sub><sup>
-[主页](http://www.crownpku.com)    [微博](http://www.weibo.com/wongan)    [LinkedIn](https://www.linkedin.com/in/crownguanwang/)
+[羊肉泡饃](http://www.crownpku.com)    [微博](http://www.weibo.com/wongan)    [LinkedIn](https://www.linkedin.com/in/crownguanwang/)    [Github](https://github.com/crownpku)
 </sup></sub>
 
 
