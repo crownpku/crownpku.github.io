@@ -4,7 +4,7 @@ comments: true
 title: Notes on Gradient Methods
 published: true
 ---
-**先发一篇以前的笔记镇一镇。。**
+
 
 Optimization methods play a critical role in machine learning algorithms. In this article we try to go through different gradient methods that are used for searching for the optimization value of a target function.
 
