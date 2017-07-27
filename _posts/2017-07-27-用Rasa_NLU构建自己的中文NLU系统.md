@@ -5,6 +5,10 @@ title: 用Rasa NLU构建自己的中文NLU系统
 published: true
 ---
 
+## 代码在 [https://github.com/crownpku/rasa_nlu_chi]
+
+
+
 自然语言理解（NLU）系统是问答系统、聊天机器人等更高级应用的基石。基本的NLU工具，包括实体识别和意图识别两个任务。
 
 已有的NLU工具，大多是以服务的方式，通过调用远程http的restful API来对目标语句进行解析完成上述两个任务。这样的工具有Google的[API.ai](http://api.ai), Microsoft的[Luis.ai](http://luis.at), Facebook的[Wit.ai](http://wit.ai)等。刚刚被百度收购的[Kitt.ai](http://kitt.ai)除了百度拿出来秀的语音唤醒之外，其实也有一大部分工作是在NLU上面，他们很有启发性的的Chatflow就包含了一个自己的NLU引擎。
@@ -72,10 +76,12 @@ $ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 
 ### 构建rasa_nlu语料和模型
 
-* 将rasa_nlu_chi clone下来：
+* 将rasa_nlu_chi clone下来并安装：
 
 ```
-python setup.py install
+$ git clone https://github.com/crownpku/rasa_nlu_chi.git
+$ cd rasa_nlu_chi
+$ python setup.py install
 ```
 
 * 构建尽可能多的示例数据来做意图识别和实体识别的训练数据：
@@ -144,7 +150,7 @@ MITIE+Jieba+sklearn (config_jieba_mitie_sklearn.json):
 * 训练Rasa NLU的模型
 
 ```
-python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
+$ python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
 ```
 
 这样就会生成一个类似model_20170714-195758的文件在 /models 的文件夹里。
@@ -155,7 +161,7 @@ python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
 * 启动rasa_nlu的后台服务:
 
 ```
-python -m rasa_nlu.server -c config_jieba_mitie_sklearn.json --server_model_dirs=./your_model_name
+$ python -m rasa_nlu.server -c config_jieba_mitie_sklearn.json --server_model_dirs=./your_model_name
 ```
 
 
