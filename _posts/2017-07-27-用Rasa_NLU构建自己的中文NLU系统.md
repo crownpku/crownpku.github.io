@@ -27,7 +27,7 @@ Rasa NLU本身是只支持英文和德文的。中文因为其特殊性需要加
 
 Rasa NLU的实体识别和意图识别的任务，需要一个训练好的MITIE的模型。这个MITIE模型是非监督训练得到的，类似于word2vec中的word embedding。
 
-要训练这个MITIE模型，我们需要一个规模比较大的中文语料。最好的方法是用对应自己需求的语料，比如做金融的chatbot就多去爬取些财经新闻，做医疗的chatbot就多获取写医疗相关文章。
+要训练这个MITIE模型，我们需要一个规模比较大的中文语料。最好的方法是用对应自己需求的语料，比如做金融的chatbot就多去爬取些财经新闻，做医疗的chatbot就多获取些医疗相关文章。
 
 我使用的是[awesome-chinese-nlp](https://github.com/crownpku/awesome-chinese-nlp)中列出的中文wikipedia dump和百度百科语料。其中关于wikipedia dump的处理可以参考[这篇帖子](http://blog.csdn.net/qq_32166627/article/details/68942216)。
 
@@ -194,7 +194,7 @@ $ curl -XPOST localhost:5000/parse -d '{"q":"我发烧了该吃什么药？"}' |
 
 上面可以看到这种后台服务、前台curl的方式，其实已经可以代替之前提到的一大票云端的NLU服务了。
 
-有热心的前端大牛还做了一个[Rasa UI](https://github.com/paschmann/rasa-ui)，提供Rasa的界面。理论上是要讲前面提到的示例数据的添加、模型的训练以及服务的监控等等都做成一个漂亮的web界面。只是现在还开发的非常不完善，大部分的功能还都没有加进去。
+有热心的前端大牛还做了一个[Rasa UI](https://github.com/paschmann/rasa-ui)，提供Rasa的界面。理论上是要将前面提到的示例数据的添加、模型的训练以及服务的监控等等都做成一个漂亮的web界面。只是现在还开发的非常不完善，大部分的功能还都没有加进去。
 
 有兴趣的朋友可以clone下来装一个试试。效果如下：
 
