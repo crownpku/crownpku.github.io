@@ -19,9 +19,6 @@ published: true
 Rasa NLU本身是只支持英文和德文的。中文因为其特殊性需要加入特定的tokenizer作为整个流水线的一部分。我加入了jieba作为我们中文的tokenizer，这个适用于中文的rasa NLU的版本代码在[github](https://github.com/crownpku/rasa_nlu_chi)上。
 
 
-## 施工中...
-
-
 ### 语料获取及预处理
 
 Rasa NLU的实体识别和意图识别的任务，需要一个训练好的MITIE的模型。这个MITIE模型是非监督训练得到的，类似于word2vec中的word embedding。
@@ -75,15 +72,15 @@ $ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 
 ### 构建rasa_nlu语料和模型
 
-1. 将rasa_nlu_chi clone下来：
+* 将rasa_nlu_chi clone下来：
 
 ```
 python setup.py install
 ```
 
-2. 构建尽可能多的示例数据来做意图识别和实体识别的训练数据：
+* 构建尽可能多的示例数据来做意图识别和实体识别的训练数据：
 
-* data/examples/rasa/demo-rasa_zh.json
+ data/examples/rasa/demo-rasa_zh.json
 
 格式是json，例子如下。'start'和'end'是实体对应在'text'中的起止index。
 
@@ -126,7 +123,7 @@ python setup.py install
 
 这里有个小bug，就是这个entity一定要刚刚好是text被jieba分词后其中的一个词。如果jieba分词的结果中分错了你设定的entity这个词就会报错。所以写这个示例数据的时候，要参考jieba对text的分词结果来写。
 
-2. 修改pipeline的设置
+* 修改pipeline的设置
 
 对于中文我们现在有两种pipeline:
 
@@ -144,7 +141,7 @@ MITIE+Jieba+sklearn (config_jieba_mitie_sklearn.json):
 
 这里也可以看到Rasa NLU的工作流程。"nlp_mitie"初始化MITIE，"tokenizer_jieba"用jieba来做分词，"ner_mitie"和"ner_synonyms"做实体识别，"intent_featurizer_mitie"为意图识别做特征提取，"intent_classifier_sklearn"使用sklearn做意图识别的分类。
 
-3. 训练Rasa NLU的模型
+* 训练Rasa NLU的模型
 
 ```
 python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
@@ -155,14 +152,14 @@ python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
 
 ### 搭建本地rasa_nlu服务
 
-1. 启动rasa_nlu的后台服务:
+* 启动rasa_nlu的后台服务:
 
 ```
 python -m rasa_nlu.server -c config_jieba_mitie_sklearn.json --server_model_dirs=./your_model_name
 ```
 
 
-2. 打开一个新的terminal，我们现在就可以使用curl命令获取结果了, 举个例子:
+* 打开一个新的terminal，我们现在就可以使用curl命令获取结果了, 举个例子:
 
 ```
 $ curl -XPOST localhost:5000/parse -d '{"q":"我发烧了该吃什么药？"}' | python -mjson.tool
