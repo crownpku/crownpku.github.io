@@ -5,7 +5,7 @@ title: 用Rasa NLU构建自己的中文NLU系统
 published: true
 ---
 
-## 代码在 [https://github.com/crownpku/rasa_nlu_chi]
+### 代码在 [https://github.com/crownpku/rasa_nlu_chi](https://github.com/crownpku/rasa_nlu_chi)
 
 
 
