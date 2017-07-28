@@ -19,3 +19,5 @@ markdown: kramdown
 #Additional by crownpku
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-82231722-1
+gems:
+  - jekyll-seo-tag
