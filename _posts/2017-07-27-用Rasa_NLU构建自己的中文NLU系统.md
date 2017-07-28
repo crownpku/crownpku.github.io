@@ -71,7 +71,13 @@ $ cmake --build . --config Release
 $ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 ```
 
-我用中文wikipedia和百度百科语料生成了一个total_word_feature_extractor_chi.dat。对于一些比较general的NLU使用场景，这个应该是够用了。
+我用中文wikipedia和百度百科语料生成了一个total_word_feature_extractor_chi.dat，分享如下。
+
+```
+链接：http://pan.baidu.com/s/1micEF0G 密码：opli
+```
+
+对于一些比较general的NLU使用场景，这个应该是够用了。
 
 
 ### 构建rasa_nlu语料和模型
