@@ -9,7 +9,7 @@ permalink: /about/
 
 
 
-You find me!
+You found me!
 
 
 My name is WANG Guan (王冠) and I currently work on some exciting data mining and machine learning projects at [Lenovo Big Data Lab](http://www.onebit.hk/) in Hong Kong. Previously I have worked on machine vision projects at [Hong Kong Applied Science and Technology Research Institute (ASTRI)](https://www.astri.org/) and system development at [ASM](http://www1.asmpacific.com/en/).
