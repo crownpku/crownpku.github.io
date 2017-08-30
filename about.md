@@ -19,6 +19,8 @@ I hold an MPhil degree in Physics from [the Hong Kong University of Science and 
 
 
 <p align="center">
+  <br><br><br><br>
+  <img src="https://crownpku.github.io/images/profile_math.jpg" alt="profile_math"/>
   <br><br><b>
   <a href="https://github.com/crownpku">Github</a> |
   <a href="https://www.linkedin.com/in/crownpku/">LinkedIn</a></b>
