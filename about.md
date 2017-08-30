@@ -18,9 +18,13 @@ My name is WANG Guan (王冠) and I currently work on some exciting data mining 
 I hold an MPhil degree in Physics from [the Hong Kong University of Science and Technology (HKUST)](http://www.ust.hk/). My MPhil research work is on [Genetic Algorithms and Complex Network Analysis](http://repository.ust.hk/ir/Record/1783.1-7674). I also hold BSc degree in Physics and Computer Science from [Peking University](http://www.pku.edu.cn/).
 
 
-[Github](https://github.com/crownpku)    [LinkedIn](https://www.linkedin.com/in/crownpku/)    
+<p align="center">
+  <a href="https://github.com/crownpku">Github</a> |
+  <a href="https://www.linkedin.com/in/crownpku/">LinkedIn</a>
+</p>
 
 
 <p align="center">
   <img src="https://crownpku.github.io/images/dashang/gongzhonghao.jpg" alt="微信公众号"/>
+  <em>微信公众号</em>
 </p>
