@@ -147,7 +147,7 @@ $ python setup.py install
 
 我们推荐使用下面的pipeline:
 
-MITIE+Jieba+sklearn (config_jieba_mitie_sklearn.json):
+MITIE+Jieba+sklearn (sample_configs/config_jieba_mitie_sklearn.json):
 
 ["nlp_mitie", "tokenizer_jieba", "ner_mitie", "ner_synonyms", "intent_featurizer_mitie", "intent_classifier_sklearn"]
 
@@ -156,7 +156,7 @@ MITIE+Jieba+sklearn (config_jieba_mitie_sklearn.json):
 * 训练Rasa NLU的模型
 
 ```
-$ python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
+$ python -m rasa_nlu.train -c sample_configs/config_jieba_mitie_sklearn.json
 ```
 
 这样就会生成一个类似model_20170714-195758的文件在 /models 的文件夹里。
@@ -167,7 +167,7 @@ $ python -m rasa_nlu.train -c config_jieba_mitie_sklearn.json
 * 启动rasa_nlu的后台服务:
 
 ```
-$ python -m rasa_nlu.server -c config_jieba_mitie_sklearn.json --server_model_dirs=./your_model_name
+$ python -m rasa_nlu.server -c sample_configs/config_jieba_mitie_sklearn.json -p ./your_model_name
 ```
 
 
