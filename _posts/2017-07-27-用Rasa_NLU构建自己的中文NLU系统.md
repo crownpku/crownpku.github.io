@@ -159,7 +159,9 @@ MITIE+Jieba+sklearn (sample_configs/config_jieba_mitie_sklearn.json):
 $ python -m rasa_nlu.train -c sample_configs/config_jieba_mitie_sklearn.json
 ```
 
-这样就会生成一个类似model_20170714-195758的文件在 /models 的文件夹里。
+这样就会生成一个类似model_20170714-195758的文件在 /models/your_project_name 的文件夹里。
+
+如果config文件中没有project_name，模型会存储在默认的 /models/default 文件夹下。
 
 
 ### 搭建本地rasa_nlu服务
@@ -167,34 +169,57 @@ $ python -m rasa_nlu.train -c sample_configs/config_jieba_mitie_sklearn.json
 * 启动rasa_nlu的后台服务:
 
 ```
-$ python -m rasa_nlu.server -c sample_configs/config_jieba_mitie_sklearn.json -p ./your_model_name
+python -m rasa_nlu.server -c sample_configs/config_jieba_mitie_sklearn.json
 ```
 
 
 * 打开一个新的terminal，我们现在就可以使用curl命令获取结果了, 举个例子:
 
 ```
-$ curl -XPOST localhost:5000/parse -d '{"q":"我发烧了该吃什么药？"}' | python -mjson.tool
+$ curl -XPOST localhost:5000/parse -d '{"q":"我发烧了该吃什么药？", "project": "rasa_nlu_test", "model": "model_20170921-170911"}' | python -mjson.tool
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   364  100   326  100    38  98519  11483 --:--:-- --:--:-- --:--:--  106k
+100   652    0   552  100   100    157     28  0:00:03  0:00:03 --:--:--   157
 {
     "entities": [
         {
             "end": 3,
             "entity": "disease",
-            "extractor": "ner_jieba_mitie",
+            "extractor": "ner_mitie",
             "start": 1,
-            "value": "\u53d1\u70e7"
+            "value": "发烧"
         }
     ],
     "intent": {
-        "confidence": 0.82073156639321614,
+        "confidence": 0.5397186422631861,
         "name": "medical"
     },
-    "text": "\u6211\u53d1\u70e7\u4e86\u8be5\u5403\u4ec0\u4e48\u836f\uff1f"
+    "intent_ranking": [
+        {
+            "confidence": 0.5397186422631861,
+            "name": "medical"
+        },
+        {
+            "confidence": 0.16206323981749196,
+            "name": "restaurant_search"
+        },
+        {
+            "confidence": 0.1212448457737397,
+            "name": "affirm"
+        },
+        {
+            "confidence": 0.10333600028547868,
+            "name": "goodbye"
+        },
+        {
+            "confidence": 0.07363727186010374,
+            "name": "greet"
+        }
+    ],
+    "text": "我发烧了该吃什么药？"
 }
 ```
+
 
 ### Rasa UI界面 
 
