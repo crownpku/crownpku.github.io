@@ -133,7 +133,9 @@ $ python setup.py install
       }
 ```
 
-这里有个小bug，就是这个entity一定要刚刚好是text被jieba分词后其中的一个词。如果jieba分词的结果中分错了你设定的entity这个词就会报错。所以写这个示例数据的时候，要参考jieba对text的分词结果来写。
+~~这里有个小bug，就是这个entity一定要刚刚好是text被jieba分词后其中的一个词。如果jieba分词的结果中分错了你设定的entity这个词就会报错。所以写这个示例数据的时候，要参考jieba对text的分词结果来写。~~
+
+上述bug已解决。
 
 * 修改pipeline的设置
 
