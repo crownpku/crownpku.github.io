@@ -155,6 +155,8 @@ MITIE+Jieba+sklearn (sample_configs/config_jieba_mitie_sklearn.json):
 
 这里也可以看到Rasa NLU的工作流程。"nlp_mitie"初始化MITIE，"tokenizer_jieba"用jieba来做分词，"ner_mitie"和"ner_synonyms"做实体识别，"intent_featurizer_mitie"为意图识别做特征提取，"intent_classifier_sklearn"使用sklearn做意图识别的分类。
 
+**2017.11.16更新：** 关于加入jieba自定义词典，暂时没有找到非常优雅的做法。现在的版本，需要用户把jieba自定义词典放到`rasa_nlu_chi/jieba_userdict/`下面。系统在训练和预测时都会自动寻找并导入jieba分词。
+
 * 训练Rasa NLU的模型
 
 ```
