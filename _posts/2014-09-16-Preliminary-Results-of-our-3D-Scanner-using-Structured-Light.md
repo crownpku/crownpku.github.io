@@ -11,8 +11,6 @@ One of our projects is to make a low-cost 3D scanner using structured light. We 
 Of course we still have a long way to go. For example we need to implement the rotation system of the scanned object so that we can get the point cloud data of the whole object instead of one face of it, and we need to do further point cloud processing to build up the surface mesh data. But the current results are already quite interesting and exciting and actually generated quite lot of attraction from the audience at CIOE exhibition. I'm showing some of our preliminary results here.
 
 
-![](/images/201409/5.png)
-
 ![](/images/201409/1.png)
 
 ![](/images/201409/2.png)
@@ -20,6 +18,8 @@ Of course we still have a long way to go. For example we need to implement the r
 ![](/images/201409/3.png)
 
 ![](/images/201409/4.png)
+
+![](/images/201409/5.png)
 
 
 
