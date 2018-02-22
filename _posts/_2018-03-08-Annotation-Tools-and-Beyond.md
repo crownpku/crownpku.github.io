@@ -29,26 +29,37 @@ You can imagine that there are many cases where not all the data can be easily s
 
 This is where we need annotation tools that are easy to deploy, intuitive to use, and effective to generate label data.
 
-We will focus on Chinese Text annotation from now on, as an example of designing such annotation tools.
-
-
 ## Annotator for Chinese Text Corpus
+
+Most tasks in Natrual Language Processing are supervised learning problem. There are sequence labelling problems such as Toeknization and Named Entity Recognition, classification problems such as relation extraction, sentiment analysis and intention recognition. All those problems needs label data for training the model. With deep learning conquering almost all the problems, DL based NLP models are expecially data thirsty.
+
+Things are better for English language. Many large scale corpus are out there for people to research on such as SQuAD Reading Comprehension corpus from Stanford. For Chinese, such open source corpus are way less, making it quite diffcult to transfer the state-of-art technologies developed with English to Chinese. On the other hand, for some vertical context such as health, finance, legal and public security, there are bunch of special entities and needs. We cannot use general models trained on google news or wikipedia dump in those special contexts.
+
+Traditional annotation methods are complex and cumpsy. We have to label multiple times for "Swiss Re", "Swiss Reinsurance" and "Swiss Re Group". Such process needs large amount of repetitive human labours.
+
+Can we build a Chinese text annotator, so that
+
+1. Labelling process has intelligent algorithms behind it so that we minimize human labours.
+
+2. Labelling UI is friendly, intuitive and easy to use.
+
+The answer is yes!
 
 ![](image of english version of software structure)
 
-### Active learning
+### Intelligent Labelling with Active learning
 
 ### Data Pipeline
 
 ### Modular Design
 
-## More than an Annotator
+### More than an Annotator
 
-### Data Manager
+**Data Manager**
 
-### Model Manager
+**Model Manager**
 
-### Prediction Service
+**Prediction Service**
 
 Obviously, at end of the day, this project will be a **Full Pipeline Machine Learning Tool**.
 
