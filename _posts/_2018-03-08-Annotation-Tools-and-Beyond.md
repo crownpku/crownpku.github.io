@@ -25,6 +25,8 @@ However, there can be cases when neither automatically generated label data nor 
 
 There are also tons of companies offering human labour for generating label data. For example there are lots of commercial "human captcha recognition" services in China for crawling need, and even Amazon has their [Mechanical Turk](https://www.mturk.com/) human labelling service which they call "Human intelligence through an API".
 
+![](/images/201803/1.png)
+
 You can imagine that there are many cases where not all the data can be easily shared with those commercial services. First problem is data privacy. As the most valuable asset companies cannot simply give data away. Second problem is the lack of expert knowledge. Some labelling task requires deep expert knowledge to make a judge on the labels, and such is not always suitable for oursourcing the task.
 
 This is where we need annotation tools that are easy to deploy, intuitive to use, and effective to generate label data.
@@ -37,6 +39,11 @@ Things are better for English language. Many large scale corpus are out there fo
 
 Traditional annotation methods are complex and cumpsy. We have to label multiple times for "Swiss Re", "Swiss Reinsurance" and "Swiss Re Group". Such process needs large amount of repetitive human labours.
 
+There are already many other text corpus annotation tools like IEPY, DeepDive (Mindtagger), BRAT, SUTDAnnotator, Snorkel, Slate and Prodigy, but those are either not open source, only supporting English, using out-dated software technology, or very difficult to use.
+
+![](/images/201803/2.png)
+
+
 Can we build a Chinese text annotator, so that
 
 1. Labelling process has intelligent algorithms behind it so that we minimize human labours.
@@ -48,23 +55,6 @@ The answer is yes!
 
 
 ### Intelligent Labelling with Active learning
-
-Process:
-
-1. User make labels
-
-2. Backend active learning algorithm will consist of "Online" part and "Offline" part. "Online" part will do the online learning and  update online model in real time, using fast traditional algorithms like SVM and BoW; When label data accumulated to a certain amount, "Offline" part will update the offline model, using probably highly accurate deep learning models.
-
-3. After model is updated, we will do as much prediction as possible, rank the confidence, and choose the lowest certain number of samples as datasets waiting to be labeled. Repeat step 1.
-
-Hopefully the process will ignore data with highest confidence, and focus on the low confidence samples that lies on the classification bonudries. Such algorithm will help reduce the human labour during labelling work.
-
-Online and Offline models will work with each other, and evolve with human labelling process; After we finsh enough labelling samples we wukk retrain the offline model with all the hand-labelled "golden" samples to achieve best results.
-
-### Data Pipeline and Modular Design
-
-We must make very clear about how data flows within the labelling and active learning process. For different tasks different algorithms and data flows will be used. Such data pipline requires a highly modular and configurable design of the system. 
-
 
 ![](https://raw.githubusercontent.com/crownpku/Chinese-Annotator/master/docs/images/chinese_annotator_arch.png)
 
@@ -93,6 +83,33 @@ We must make very clear about how data flows within the labelling and active lea
 └── ...
 
 ```
+
+Process:
+
+1. User make labels
+
+2. Backend active learning algorithm will consist of "Online" part and "Offline" part. "Online" part will do the online learning and  update online model in real time, using fast traditional algorithms like SVM and BoW; When label data accumulated to a certain amount, "Offline" part will update the offline model, using probably highly accurate deep learning models.
+
+3. After model is updated, we will do as much prediction as possible, rank the confidence, and choose the lowest certain number of samples as datasets waiting to be labeled. Repeat step 1.
+
+![](https://camo.githubusercontent.com/f7372d0f2726c69082421304fee80ff6d3c0e3e0/68747470733a2f2f696d616765732d63646e2e7368696d6f2e696d2f34385a4e7741306b6a756761323647432f696d6167652e706e67)
+
+![](https://camo.githubusercontent.com/5951a12bb484974ae20b71c73071af361b3a00df/68747470733a2f2f696d616765732d63646e2e7368696d6f2e696d2f523675704d51626552736b5138306d352f696d6167652e706e67)
+
+![](https://camo.githubusercontent.com/20ba77413fb020596cddceb8e67bda3e42e5eeb6/68747470733a2f2f696d616765732d63646e2e7368696d6f2e696d2f68796e64707772736d634d65527178692f696d6167652e706e67)
+
+Hopefully the process will ignore data with highest confidence, and focus on the low confidence samples that lies on the classification bonudries. Such algorithm will help reduce the human labour during labelling work.
+
+Online and Offline models will work with each other, and evolve with human labelling process; After we finsh enough labelling samples we wukk retrain the offline model with all the hand-labelled "golden" samples to achieve best results.
+
+### Data Pipeline and Modular Design
+
+We must make very clear about how data flows within the labelling and active learning process. For different tasks different algorithms and data flows will be used. Such data pipline requires a highly modular and configurable design of the system. 
+
+![modular design](https://raw.githubusercontent.com/crownpku/Chinese-Annotator/master/docs/images/arch_taskcenter.png)
+
+![data pipline](https://raw.githubusercontent.com/crownpku/Chinese-Annotator/master/docs/images/pipeline_taskcenter.png)
+
 
 For example, Database module can be plugged with mySQL, sqlite, MongoDB or any other databases with a proper API; Restful API is used for exchanging data between WebUI module and backend, so users choose to use the provided WebUI or simply replace it with their own user interface, or even use scripts to implement more sophisticated functions; Algo Factory contains a bunch of different preprocessing functions, classification and sequence labelling algorithms for users to connect into an algorithm pipeline.
 
@@ -148,7 +165,7 @@ As you may know I joined Swiss Re Hong Kong not long ago as a Data Scientist. Sw
 
 However what amazed my most during my still-short time at Swiss Re is the working style, which Swiss Re calls "Own the way you work". We are encouraged to work from home when appropariate. And more interestingly, in our office at Wanchai each and every employee from interns to directors does not own a permanent desk. Instead we are given a fancy suitcase called "Hot Box", and we are asked to carry such suit case and sit anywhere we want in the spacious two floors of office. Especially for data scientists like me, we are encouraged to switch desks frequently so that we can meet more colleagues, understand their needs, and see if we can help with data science.
 
-![](Picture of office view)
+![](/images/201803/1.jpg)
 
 Of course at Swiss Re we have Microsoft products and network proxies everywhere, and for data scientists this is sometimes painful. But the "own the way you work" style is already too cool to be true at such a big company. This inpires me to share my working style on the Chinese Annotator Project.
 
