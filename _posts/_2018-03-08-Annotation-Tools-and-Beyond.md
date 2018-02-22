@@ -41,6 +41,7 @@ Traditional annotation methods are complex and cumpsy. We have to label multiple
 
 There are already many other text corpus annotation tools like IEPY, DeepDive (Mindtagger), BRAT, SUTDAnnotator, Snorkel, Slate and Prodigy, but those are either not open source, only supporting English, using out-dated software technology, or very difficult to use.
 
+**Annotation Tools**
 ![](/images/201803/2.png)
 
 
@@ -92,6 +93,7 @@ Process:
 
 3. After model is updated, we will do as much prediction as possible, rank the confidence, and choose the lowest certain number of samples as datasets waiting to be labeled. Repeat step 1.
 
+**Frontend Design**
 ![](https://camo.githubusercontent.com/f7372d0f2726c69082421304fee80ff6d3c0e3e0/68747470733a2f2f696d616765732d63646e2e7368696d6f2e696d2f34385a4e7741306b6a756761323647432f696d6167652e706e67)
 
 ![](https://camo.githubusercontent.com/5951a12bb484974ae20b71c73071af361b3a00df/68747470733a2f2f696d616765732d63646e2e7368696d6f2e696d2f523675704d51626552736b5138306d352f696d6167652e706e67)
@@ -106,8 +108,10 @@ Online and Offline models will work with each other, and evolve with human label
 
 We must make very clear about how data flows within the labelling and active learning process. For different tasks different algorithms and data flows will be used. Such data pipline requires a highly modular and configurable design of the system. 
 
+**Modular Design**
 ![modular design](https://raw.githubusercontent.com/crownpku/Chinese-Annotator/master/docs/images/arch_taskcenter.png)
 
+**Data Pipeline**
 ![data pipline](https://raw.githubusercontent.com/crownpku/Chinese-Annotator/master/docs/images/pipeline_taskcenter.png)
 
 
