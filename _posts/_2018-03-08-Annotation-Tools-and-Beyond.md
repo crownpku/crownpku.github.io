@@ -15,7 +15,7 @@ I will mainly talk about the technical details of an open source project [Chines
 
 Most machine learning problems are supervised learning. Be it recommentation systems, image recognition or natrual language processing, we all probably need label data for building good models and making correct predictions.
 
-In some lucky cases, such label datasets are automatically generated. For example, in recommendation systems, people natrually generate label data by clicking on an ad on the webpage, adding stuff in their shopping card on Amazon, or listening to songs on Spotify.
+In some lucky cases, such label datasets are automatically generated. For example, in recommendation systems, people natrually generate label data by clicking on an ad on the webpage, adding stuff in their shopping cart on Amazon, or listening to songs on Spotify.
 
 In some other cases, we can find smart tricks to generate label data. For example, when we want to build an entity recognition or relation extraction model from the text, we can actually follow the so called "Distant Supervision" idea by crawling entity and relation data from the internet and using them to train the model. Though such data may be noisy, we find some deep learning models quite robust.
 
