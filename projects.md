@@ -4,17 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-# Awesome Chinese NLP
+# * Awesome Chinese NLP
 
-#### Code: [https://github.com/crownpku/Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
+#### Github: [https://github.com/crownpku/Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
 
 中文自然语言处理相关资料
 
 A curated list of resources for Chinese NLP 
 
-![](https://raw.githubusercontent.com/crownpku/Awesome-Chinese-NLP/master/images/1.jpg)
 
-# Information Extraction Chinese
+# * Information Extraction Chinese
 
 #### Code: [https://github.com/crownpku/Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese)
 
@@ -26,10 +25,7 @@ A curated list of resources for Chinese NLP
 
 Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 
 
-![](http://www.crownpku.com/images/201708/2.jpg)
-![](http://www.crownpku.com/images/201708/4.jpg)
-
-# Chinese Annotator
+# * Chinese Annotator
 
 #### Code: [https://github.com/deepwel/Chinese-Annotator](https://github.com/deepwel/Chinese-Annotator)
 
@@ -39,7 +35,7 @@ Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction 
 
 Annotator for Chinese Text Corpus
 
-# Rasa NLU Chi
+# * Rasa NLU Chi
 
 #### Code: [https://github.com/crownpku/Rasa_NLU_Chi](https://github.com/crownpku/Rasa_NLU_Chi)
 
@@ -49,10 +45,8 @@ Annotator for Chinese Text Corpus
 
 Turn Chinese natural language into structured data
 
-![](http://www.crownpku.com/images/201707/4.jpg)
-![](http://www.crownpku.com/images/201707/5.jpg)
 
-# Somiao Pinyin
+# * Somiao Pinyin
 
 #### Code: [https://github.com/crownpku/Somiao-Pinyin](https://github.com/crownpku/Somiao-Pinyin)
 
@@ -62,9 +56,8 @@ Turn Chinese natural language into structured data
 
 Somiao Pinyin: Train your own Chinese Input Method with Seq2seq Model
 
-![](http://www.crownpku.com/images/201709/1.jpg)
 
-# text2vec
+# * text2vec
 
 #### Code: [https://github.com/crownpku/text2vec](https://github.com/crownpku/text2vec)
 
@@ -72,7 +65,8 @@ Somiao Pinyin: Train your own Chinese Input Method with Seq2seq Model
 
 Easily generate document/paragraph/sentence vectors and calculate similarity. 
 
-# hk ipo prediction
+
+# * hk ipo prediction
 
 #### Code: [https://github.com/crownpku/hk_ipo_prediction](https://github.com/crownpku/hk_ipo_prediction)
 
