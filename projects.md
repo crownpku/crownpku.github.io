@@ -75,3 +75,13 @@ Easily generate document/paragraph/sentence vectors and calculate similarity.
 #### Blog: [港股新股首日升幅预测：一个简单的机器学习项目](http://www.crownpku.com//2017/07/22/%E6%B8%AF%E8%82%A1%E6%96%B0%E8%82%A1%E9%A6%96%E6%97%A5%E5%8D%87%E5%B9%85%E9%A2%84%E6%B5%8B-%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE.html)
 
 Predict first day performance of Hong Kong IPO stocks: A pipeline example of machine learning projects 
+
+<br><br>
+# Share Everything
+
+#### Code: [https://github.com/crownpku/share_everything](https://github.com/crownpku/share_everything)
+#### Blog: [共享经济和一个实验](http://www.crownpku.com//2017/02/19/%E5%85%B1%E4%BA%AB%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%B8%80%E4%B8%AA%E5%AE%9E%E9%AA%8C.html)
+
+共享经济和一个实验
+
+wechat public account share_everything code
