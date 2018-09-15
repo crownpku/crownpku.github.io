@@ -23,7 +23,7 @@ I hold an MPhil degree in Physics from [the Hong Kong University of Science and 
   <a href="https://github.com/crownpku">Github</a> |
   <a href="https://www.linkedin.com/in/crownpku/">LinkedIn</a></b>
   <br><br>
-  <b>内容雷同的微信公众号</b><br>
+  <b>欢迎关注公众号来聊聊</b><br>
   <img src="https://crownpku.github.io/images/dashang/gongzhonghao.jpg" alt="微信公众号"/>
 </p>
 
