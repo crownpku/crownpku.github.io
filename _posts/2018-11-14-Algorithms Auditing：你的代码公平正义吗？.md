@@ -61,6 +61,7 @@ published: true
 
 直接把算法产生的批量结果拿来审计可能是最直接简单的方法，一些最简单的数据挖掘和可视化已经能说明很多问题。网友发现王思聪抽奖结果全是女性和iPhone用户，就足以质疑抽奖的公平性。
 
+
 ![](/images/201811/wangsicong_statistics.jpg)
 
 ### Audit on Models
