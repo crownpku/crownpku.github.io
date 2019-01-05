@@ -34,7 +34,7 @@ This should work as Horizontal Federated Learning just like Google’s Gboard. E
 
 We have to also be very careful on the how to motivate each insurer to take part in the Federated Learning federation. The quantity and quality of data from each primary insurer can be very different. The reinsurer may distribute personalized models for each primary insurer or give personalized pricing for reinsurance premium according to their contribution to the centralized model.
 
-The writer is working as Data Scientist at Swiss Re. He is very keen to see the applications of Federated Learning for insurance industry.
+The writer is working as Data Scientist at a reinsurance company. He is very keen to see the applications of Federated Learning for insurance industry.
 
 [1] ”Federated Learning: Strategies for Improving Communication Efficiency”, https://pmpml.github.io/PMPML16/papers/PMPML16_paper_20.pdf
 
