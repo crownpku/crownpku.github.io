@@ -26,7 +26,7 @@ Federated Learning needs a centralized node to manage the current models, get in
 
 Reinsurer is “the insurer for insurers”. This is a B2B business. We know the business model for insurers is the law of large numbers and “one for all and all for one”. To control risk for their policy portfolios, primary insurers will share some of their policies to reinsurers. The advantage of reinsurers is their wider coverage of markets and clients. This will combine the risk from different markets and clients and form a risk portfolio that is manageable. One incident like earthquake or typhoon can bring great risk for insurers in the specific region and reinsurance will reduce the pressure of causing a big loss. On the other hand reinsurer has a larger portfolio across the globe and amortize the loss for a specific client in a specific region.
 
-Primary insurers and reinsurers have been holding their hands for so long and they have great relationship and trust between each other. Cooperation between insurers and reinsurers is everywhere in the insurance business lines. **If we want to build a central note for Federated Learning for insurance industry, reinsurance companies is most likely to be the choice.**
+Primary insurers and reinsurers have been holding their hands for so long and they have great relationship and trust between each other. Cooperation between insurers and reinsurers is everywhere in the insurance business lines. **If we want to build a central note for Federated Learning for insurance industry, reinsurance companies are most likely to be the choice.**
 
 ![](/images/201901/3.png)
 
