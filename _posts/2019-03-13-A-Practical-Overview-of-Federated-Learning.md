@@ -88,13 +88,13 @@ There can be hierarchy layers for the federated learning structure. For example,
 
 In the long run, we may also have p2p federated learning where end customers may connect with each other directly for training a model without disclosing each other's data. Protocols behind such case can be even more challenging. 
 
-### Heterogeneous Clients for Federated (Transfer) Learning
+### Heterogeneous Clients for Federated Learning
 
 In real use cases, the data from each client can be quite different in feature space. Some clients may have one set overlapped features, while others may have another set of overlapped features. This will result in a hybrid version of vertical and horizontal federated learning or even the transfer learning method to make best use of all the data.
 
 On the other hand, computing resource for each client is also heterogeneous. This problem has been partially handled in horizontal FL by Tensorflow FL.
 
-### Regulation/Audition solution
+### Regulation/Audition Solution
 
 Regulators and auditors will play a crucial role for federated learning applications. How they are involved into the federation is an open question. Regulators not only can be educated and assured on the technology, but also can play as one important party in the federated learning setup where they can directly tap into the system to audit and contribute.
 
