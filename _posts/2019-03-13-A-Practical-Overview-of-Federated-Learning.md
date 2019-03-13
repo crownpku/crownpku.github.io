@@ -107,6 +107,8 @@ Different clients may have different amount and quality of data and different le
 As a multi-party system, besides the robust and efficient algorithms, we also need a federated learning management platform to give a easy-to-use interface and tool for the clients, model-builders and auditors to check, monitor, configure and analyze the system. Such piece of engineering work is crucial for federated learning to become a real product.
 
 
+## Reference
+
 [1] ”Federated Learning: Strategies for Improving Communication Efficiency”, https://pmpml.github.io/PMPML16/papers/PMPML16_paper_20.pdf
 
 [2] ”Federated Learning: Collaborative Machine Learning without Centralized Training Data”, https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
