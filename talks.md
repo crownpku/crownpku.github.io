@@ -4,6 +4,10 @@ title: Talks
 permalink: /talks/
 ---
 
+#2019
+"知识图谱构建：数据、算法和架构", [全球人工智能技术峰会 WOT2019](http://wot.51cto.com/act/wot2019/ai), Beijing, June.21st 2019
+
+
 
 # 2018
 "The Data Scientist: Actuary 2.0?", presented with Swiss Re colleague Doan Le, [Asian Actuarial Conference](http://www.aachk2018.org/index/programme), Hong Kong, Sep.18th 2018, [slides](https://github.com/crownpku/crownpku.github.io/raw/master/slides/201809_Data_Scientist_Actuary_AAC2018.pdf)
