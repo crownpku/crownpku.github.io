@@ -15,7 +15,7 @@ permalink: /projects/
 
 ##### [text2vec](https://github.com/crownpku/text2vec) | [Blog](http://www.crownpku.com//2018/03/30/Text2Vec-%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96%E5%B7%A5%E5%85%B7.html)
 
-##### [Federated_Shap](https://github.com/crownpku/federated_shap) | [Paper](https://arxiv.org/abs/1905.04519)
+##### [Federated_Shap](https://github.com/crownpku/federated_shap) | [Paper](https://arxiv.org/abs/1905.04519) | [Blog](http://www.crownpku.com/2019/05/18/%E7%94%A8Shapley%E5%80%BC%E8%A7%A3%E9%87%8A%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.html)
 
 ##### [HK IPO Prediction](https://github.com/crownpku/hk_ipo_prediction) | [Blog](http://www.crownpku.com//2017/07/22/%E6%B8%AF%E8%82%A1%E6%96%B0%E8%82%A1%E9%A6%96%E6%97%A5%E5%8D%87%E5%B9%85%E9%A2%84%E6%B5%8B-%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE.html)
 
