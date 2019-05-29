@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
-#2019
+# 2019
 "知识图谱构建：数据、算法和架构", [全球人工智能技术峰会 WOT2019](http://wot.51cto.com/act/wot2019/ai), Beijing, June.21st 2019
 
 
