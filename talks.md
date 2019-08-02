@@ -9,13 +9,13 @@ permalink: /talks/
 
 "Interpret Federated Learning with Shapley Values", [The 1st International Workshop on Federated Machine Learning for User Privacy and Data Confidentiality (FML’19)](http://fml2019.algorithmic-crowdsourcing.com/), Macau, Aug.12th 2019, [paper](https://arxiv.org/abs/1905.04519), [blog](http://www.crownpku.com/2019/05/18/%E7%94%A8Shapley%E5%80%BC%E8%A7%A3%E9%87%8A%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.html)
 
-"Hands-on with Data Science", a 2-Day Internal Workshop for Swiss Re Colleagues, Sydney, Jun.27th-28th 2019
+"Hands-on with Data Science", 2-Day Internal Workshop for Swiss Re Colleagues, Sydney, Jun.27th-28th 2019
 
 "知识图谱构建：数据、算法和架构", [全球人工智能技术峰会 WOT2019](http://wot.51cto.com/act/wot2019/ai), Beijing, Jun.21st 2019
 
 "Predictive Underwriting: An Automatic Issue Offer Case Study", Manulife Global Analytics Conference, Hong Kong, Apr.12th 2019
 
-"Hands-on with Data Science", a 2-Day Internal Workshop for Swiss Re Colleagues, Hong Kong, Mar.4th-5th 2019
+"Hands-on with Data Science", 2-Day Internal Workshop for Swiss Re Colleagues, Hong Kong, Mar.4th-5th 2019
 
 
 # 2018
