@@ -45,19 +45,20 @@ Chatstack同时拥有企业级的用户管理权限，管理员可以自主为�
 curl -XPOST https://chatstack.crownpku.com:9091/model/parse?token=xxx -d '{"text":"我想请下个月3号到6号的假"}' | python -mjson.tool
 ```
 
-我们设置了API token来防止恶意调取API。如有兴趣测试生产模型的API集成或加入微信讨论群，请联系“**Chatstack小助手**”微信号：chatstack_cn
+我们设置了API token来防止恶意调取API。如有兴趣测试生产模型的API集成或加入微信讨论群，请联系“**Chatstack小助手**”微信号：**chatstack_cn**
 
 
+### 公测Demo
 
-### 公测demo在[chatstack.crownpku.com](http://chatstack.crownpku.com)
-
-我们已经部署和开放了一套公测demo系统，供感兴趣的朋友免费试用。
+我们已经部署和开放了一套公测demo系统，给感兴趣的朋友免费试用。公测demo在[chatstack.crownpku.com](http://chatstack.crownpku.com)
 
 关注微信公众号“**王耳古**”，回复"**chatstack**"获取公测用户名和密码。
 
 感谢谷歌云赞助GCP credit supported activity.
 
-### 文档在[https://github.com/crownpku/Chatstack-Doc](https://github.com/crownpku/Chatstack-Doc)
+### 文档
+
+文档在[https://github.com/crownpku/Chatstack-Doc](https://github.com/crownpku/Chatstack-Doc)
 
 欢迎在上述github文档的Issues中提bug或建议新功能。
 
