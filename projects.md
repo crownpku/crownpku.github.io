@@ -7,8 +7,6 @@ permalink: /projects/
 
 # Personal Projects
 
-##### [Chatstack](http://chatstack.crownpku.com) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
-
 ##### [Awesome Chinese NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
 
 ##### [Information Extraction Chinese](https://github.com/crownpku/Information-Extraction-Chinese) | [Blog1](http://www.crownpku.com//2017/08/19/%E7%94%A8Bi-GRU%E5%92%8C%E5%AD%97%E5%90%91%E9%87%8F%E5%81%9A%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%9A%84%E4%B8%AD%E6%96%87%E5%85%B3%E7%B3%BB%E6%8A%BD%E5%8F%96.html) | [Blog2](http://www.crownpku.com//2017/08/26/%E7%94%A8IDCNN%E5%92%8CCRF%E5%81%9A%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%9A%84%E4%B8%AD%E6%96%87%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB.html)
@@ -28,6 +26,8 @@ permalink: /projects/
 <br><br>
 
 # Contributor for Projects
+
+##### [Chatstack](http://chatstack.crownpku.com) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
 
 ##### [Chinese Annotator](https://github.com/deepwel/Chinese-Annotator) | [Blog](http://www.crownpku.com//2017/11/09/%E6%9E%84%E6%83%B3-%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html)
 
