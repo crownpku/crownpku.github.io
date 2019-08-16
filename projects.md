@@ -7,7 +7,7 @@ permalink: /projects/
 
 # Personal Projects
 
-##### [Chatstack](http://chatstack.crownpku.com) | Blog coming soon
+##### [Chatstack](http://chatstack.crownpku.com) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
 
 ##### [Awesome Chinese NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
 
