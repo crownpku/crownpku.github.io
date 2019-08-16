@@ -5,6 +5,8 @@ title: Chatstack：搭建中文NLU的全流程用户交互系统
 published: true
 ---
 
+![](/images/201908/login.png)
+
 Chatstack是一个搭建中文NLU的全流程用户交互系统。
 
 有了Chatstack，用户不用写一行代码就能够搭建定制化的中文NLU模组：定义意图和实体、标注数据、训练NLU模型、管理模型、测试和部署NLU模组。
@@ -48,7 +50,7 @@ curl -XPOST https://chatstack.crownpku.com:9091/model/parse?token=xxx -d '{"text
 我们设置了API token来防止恶意调取API。如有兴趣测试生产模型的API集成或加入微信讨论群，请联系“**Chatstack小助手**”微信号：**chatstack_cn**
 
 
-### 公测Demo
+### Demo
 
 我们已经部署和开放了第一个alpha版本做为公测的demo系统，给感兴趣的朋友免费试用。Demo在[chatstack.crownpku.com](http://chatstack.crownpku.com)
 
