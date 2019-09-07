@@ -27,7 +27,7 @@ permalink: /projects/
 
 # Contributor for Projects
 
-##### [Chatstack](http://chatstack.crownpku.com) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
+##### [Chatstack](http://chatstack.ai) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
 
 ##### [Chinese Annotator](https://github.com/deepwel/Chinese-Annotator) | [Blog](http://www.crownpku.com//2017/11/09/%E6%9E%84%E6%83%B3-%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html)
 
