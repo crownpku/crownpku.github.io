@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Disruption from Open Source Technology
+title: Behind the Disruption of Open Source Technology
 published: true
 ---
 
