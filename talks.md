@@ -5,7 +5,7 @@ permalink: /talks/
 ---
 
 # 2019
-* "Harnessing AI To Revolutionise The Insurance Industry", [FinovateAsia 2019](https://finance.knect365.com/finovateasia/), Singapore, Oct.16th 2019
+* "Behind the Disruption of Open Source Technology", [FinovateAsia 2019](https://finance.knect365.com/finovateasia/), Singapore, Oct.16th 2019, [blog_en](http://www.crownpku.com/2019/09/20/Behind-the-Disruption-of-Open-Source-Technology.html) [blog_cn](http://www.crownpku.com/2019/08/08/%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%A1%8C%E4%B8%9A%E6%90%85%E5%B1%80%E8%80%85.html)
 
 * "Interpret Federated Learning with Shapley Values", [The 1st International Workshop on Federated Machine Learning for User Privacy and Data Confidentiality (FML’19)](http://fml2019.algorithmic-crowdsourcing.com/), Macau, Aug.12th 2019, [paper](https://arxiv.org/abs/1905.04519), [blog_cn](http://www.crownpku.com/2019/05/18/%E7%94%A8Shapley%E5%80%BC%E8%A7%A3%E9%87%8A%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.html)
 
