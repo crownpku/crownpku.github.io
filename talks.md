@@ -21,7 +21,7 @@ permalink: /talks/
 
 * "Why Insurance needs Federated Learning", [IEEE P3652.1 Federated Learning Standard Working Group](https://sagroups.ieee.org/3652-1/), Shenzhen, Feb.22nd 2019, [blog_cn](http://www.crownpku.com/2019/01/04/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BF%9D%E9%99%A9%E8%A1%8C%E4%B8%9A%E9%9C%80%E8%A6%81%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0.html), [blog_en](http://www.crownpku.com/2019/01/05/Why-Insurance-needs-Federated-Learning.html)
 
-* "Recent Advances in NLP", In Depth Meeting for Swiss Re Digital & Smart Analytics Americas, Armonk, Jan.24th 2019
+* "Recent Advances in NLP", In Depth Meeting for Swiss Re Digital & Smart Analytics Americas, Armonk, NY, Jan.24th 2019
 
 
 # 2018
