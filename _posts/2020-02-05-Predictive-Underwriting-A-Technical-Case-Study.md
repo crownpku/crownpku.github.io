@@ -88,13 +88,13 @@ Traditionally the labels, namely the risk label on each customer, are generated 
 
 Besides the rules, we also want to introduce as much as possible of the experience of underwriters into the labelling process. Ideally the underwriters should label each of the customer again by looking at all the features, and with millions of policyholders this becomes unpractical. We designed the following unsupervised learning/manual labelling process to tackle this problem: 
 
-1.	Cluster the policyholders into a comfortable number of clusters. We used elbow method to decide on the number of clusters. Below is a plot of the result from the elbow method, and we use 70 as our number of clusters. We also got feedbacks that certain features like the claim disease severity are very important features, so we put higher weights on them when we calculate the distance function during the clustering process (K-mean in our case). 
+1. Cluster the policyholders into a comfortable number of clusters. We used elbow method to decide on the number of clusters. Below is a plot of the result from the elbow method, and we use 70 as our number of clusters. We also got feedbacks that certain features like the claim disease severity are very important features, so we put higher weights on them when we calculate the distance function during the clustering process (K-mean in our case). 
+ 
+2. For each of the cluster we plot the distribution of the common features underwriters use for risk evaluation. This can be done either by plotting some interactive visualizations directly in Jupyter notebooks, or by using other tools like PowerBI or Tableau.
+
+3. Manual labelling of good/bad risks by the underwriters on the clusters. There are also cases where it's not clear for certain clusters to be labelled as good or bad risk, and those clusters will be labelled as "exclude" so we will not use them as part of our training data.
 
 ![](/images/202002/2.png)
- 
-2.	For each of the cluster we plot the distribution of the common features underwriters use for risk evaluation. This can be done either by plotting some interactive visualizations directly in Jupyter notebooks, or by using other tools like PowerBI or Tableau.
-
-3.	Manual labelling of good/bad risks by the underwriters on the clusters. There are also cases where it's not clear for certain clusters to be labelled as good or bad risk, and those clusters will be labelled as "exclude" so we will not use them as part of our training data.
 
 After this process, each customer in the cluster will have a cluster label as "Good" or "Bad". This result will be combined with label generated from the rules to get the final "Ground-truth" label of Good or Bad risk as illustrated in the picture below:  
 
@@ -175,4 +175,3 @@ In fact, this analysis gives the actuaries a lot of confidence in deploying our 
 # Bottom Line
 
 Predictive Underwriting is a big topic covering much more topics than this blog can include, things like secure data exchange and modelling, model interpretation, deployment and integration, model updates etc. This blog is simply some personal experience from a client project as a technical case study.
-Feel free to drop an email at guan_wang@swissre.com if you have any questions regarding this blog.
