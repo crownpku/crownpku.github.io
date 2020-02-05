@@ -5,7 +5,7 @@ title: Predictive Underwriting：A Technical Case Study
 published: true
 ---
 
-# Introduction
+## Introduction
 
 In the last couple of months, my colleagues and me have been working on a project on Predictive Underwriting. The idea of this project is quite simple: you train a machine learning model to give a Risk Score for each insurance customer.
 
@@ -24,11 +24,11 @@ Traditionally such underwriting process is done with a rule-based system develop
 In this blog, I'm about to cover the data science/technical part of this project. I will not cover the very standard parts in data science like the common techniques for feature engineering or handling missing data. Instead I will focus more on the **experience**, the lessons learned from successes and more importantly failures.
 
 
-# Infrastructure
+## Infrastructure
 
 It's not trivial to talk about infrastructure first as this is the place where all the work is done.
 
-## Environment
+### Environment
 
 For my own preference, the ideal environment should be a mainstream Linux environment (for example Ubuntu) with proper computational resource and internet connection for installing the required packages. It can be either a physical machine or an environment in the cloud. It should also be able to connect to the internal database, so data can be easily manipulated and extracted directly.
 
@@ -38,7 +38,7 @@ Installing Python environment and Jupyter notebooks on Windows is not trivial, n
 
 We also could not access the internal database directly from the workstation. Colleagues from client side were kind enough to extract data based on our needs. However, this gives us less flexibility and control on the data source.
 
-## No Data Out
+### No Data Out
 
 Client has very strict policy that no data can be transferred out of their environment. Ideally this issue can be solved with a secure remote working setup, or with advanced secure machine learning techniques like Federated Learning. 
 
@@ -46,7 +46,7 @@ In our case we can only work onsite in their office with the specific workstatio
 
 Later after several rounds of working together, we gained some trust from client and we started using the remote-control function in Skype meetings to do some remote coding. This worked pretty well for parameter tuning and debugging, but the connection is not perfect, and it is too laggy to do any heavy coding from scratch. So, every time we visited client I was still under some pressure trying to finish all the heavy coding. 
 
-# Data, Data, Data!
+## Data, Data, Data!
 
 There are three most important things for a machine learning project: data, data and data. We need data and we need good data. This comes to the following data qualities:
 
@@ -56,7 +56,7 @@ There are three most important things for a machine learning project: data, data
 
 3. Enough label data. This is the tricky one as we need risk labels on existing policyholder to teach the algorithm to calculate the risk score for new customers. Usually we do not have a out-of-box label for this and we will cover it in a later session how we managed to get our labels. 
 
-## Data Sources
+### Data Sources
 
 Historical data, usually because of legacy issues, are stored in different format at different places. It's an important first step to understand the data we can get. In our case, demographic features, underwriting features and claim features from health rider data are from different databases. Below is a picture of the relationship between them.
 
@@ -74,7 +74,7 @@ It's also important to distinguish between the training data and prediction data
 
 ![](/images/202002/1.png)
 
-## Label Data
+### Label Data
 
 To get the best label quality, our label data is generated from the group of customers with full feature set, namely Demographic, Underwriting and Claim features.
 
@@ -102,11 +102,11 @@ After this process, each customer in the cluster will have a cluster label as "G
 
 Note that with this mechanism of generating the ground-truth label, there will be some customers who get inconsistent labels from the rules and the clustering result, and we will exclude them from our training dataset.
 
-# Modelling
+## Modelling
 
 With label data, we can go into the modelling part to training a supervised machine learning model to predict the risk scores for customers.
 
-## Data Splitting
+### Data Splitting
 
 Customer data is usually time dependent data. Although it is not necessary and many times not appropriate to use time series analysis to work on this data, we still need to be aware of the time dependent nature of it, and process data accordingly.
 
@@ -126,7 +126,7 @@ We use the rule of thumb 20/80 split for this. 20% of the data is used as testin
 
 Again, there are also other ways of splitting data for training and testing purposes. One of them is to again split on the time line, so that we train a model with the historical data as the training set and test it in the recent one year as the testing set to check its predictive power for the future.
 
-## Handling Imbalanced Dataset
+### Handling Imbalanced Dataset
 
 Our case is a binary classification problem on good and bad risks. We find that the label data is very imbalanced with way more good risks than bad risks (ratio around 30:1).
 
@@ -140,7 +140,7 @@ If you are interested, please check out the XGBoost documentation here on handli
 
 https://xgboost.readthedocs.io/en/latest/tutorials/param_tuning.html#handle-imbalanced-dataset
 
-## Evaluating Performance
+### Evaluating Performance
 
 For a binary classification problem, typically AUC is the best way to evaluate the model performance. In our case the AUC is around 0.8:
 
@@ -162,7 +162,7 @@ We think that two basic metrics are important:
 
 We will be trying to find a balance between these two metrics when we do the threshold tuning. 
 
-## Threshold Tuning
+### Threshold Tuning
 
 Once we have built the model and make the risk score predictions on the potential customer base, we will need to decide on the threshold for the SIO and GIO offers. 
 
@@ -172,6 +172,6 @@ Besides getting the balance between potential financial risk and missed business
  
 In fact, this analysis gives the actuaries a lot of confidence in deploying our predictive modelling, as clearly with the increase of the score the metrics indicate better health and lower risks.
 
-# Bottom Line
+## Bottom Line
 
 Predictive Underwriting is a big topic covering much more topics than this blog can include, things like secure data exchange and modelling, model interpretation, deployment and integration, model updates etc. This blog is simply some personal experience from a client project as a technical case study.
