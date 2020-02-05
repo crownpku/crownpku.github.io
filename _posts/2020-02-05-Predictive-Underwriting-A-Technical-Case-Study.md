@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Predictive Underwriting: A Technical Case Study
+title: Predictive Underwriting：A Technical Case Study
 published: true
 ---
 
