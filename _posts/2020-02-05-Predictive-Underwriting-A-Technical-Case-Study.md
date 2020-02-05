@@ -126,7 +126,7 @@ We use the rule of thumb 20/80 split for this. 20% of the data is used as testin
 
 Again, there are also other ways of splitting data for training and testing purposes. One of them is to again split on the time line, so that we train a model with the historical data as the training set and test it in the recent one year as the testing set to check its predictive power for the future.
 
-## Handline Imbalanced Dataset
+## Handling Imbalanced Dataset
 
 Our case is a binary classification problem on good and bad risks. We find that the label data is very imbalanced with way more good risks than bad risks (ratio around 30:1).
 
