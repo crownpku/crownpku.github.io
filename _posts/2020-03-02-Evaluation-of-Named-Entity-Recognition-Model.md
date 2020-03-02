@@ -31,27 +31,27 @@ The model gives the following possible cases:
 
 1. Model gives the exact same results as the ground truth:
 
-"I love Singapore(city) and it has a lot of good restaurants."
+   "I love Singapore(city) and it has a lot of good restaurants."
 
 2. Model invents an entity that doesn't exist in the ground truth:
 
-"I love Singapore(city) and it has a lot of good restaurants(city)."
+   "I love Singapore(city) and it has a lot of good restaurants(city)."
 
 3. Model misses an entity in the ground truth:
 
-"I love Singapore and it has a lot of good restaurants."
+   "I love Singapore and it has a lot of good restaurants."
 
 4. Model gives the wrong entity type:
 
-"I love Singapore(person) and it has a lot of good restaurants."
+   "I love Singapore(person) and it has a lot of good restaurants."
 
 5. Models gets the wrong entity boundary:
 
-"I love Singapore(city) and it has a lot of good restaurants."
+   "I love Singapore(city) and it has a lot of good restaurants."
 
 6. Model gives the wrong entity type and gets the wrong entity boundary:
 
-"I love Singapore(person) and it has a lot of good restaurants."
+   "I love Singapore(person) and it has a lot of good restaurants."
 
 The complexity of the above cases requires a more sophisticated evaluation method than simply calculating precision/recall/F1 score as we do for simple classification tasks.
 
