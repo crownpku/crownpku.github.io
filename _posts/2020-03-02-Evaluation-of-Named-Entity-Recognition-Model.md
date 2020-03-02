@@ -25,17 +25,17 @@ Suppose we are trying to extract the city name from the following sentence:
 
 The ground truth will be:
 
-" I love Singapore (city) and it has a lot of good restaurants."
+" I love **Singapore(city)** and it has a lot of good restaurants."
 
 The model gives the following possible cases:
 
 1. Model gives the exact same results as the ground truth:
 
-   "I love Singapore(city) and it has a lot of good restaurants."
+   "I love **Singapore(city)** and it has a lot of good restaurants."
 
 2. Model invents an entity that doesn't exist in the ground truth:
 
-   "I love Singapore(city) and it has a lot of good restaurants(city)."
+   "I love **Singapore(city)** and it has a lot of good **restaurants(city)**."
 
 3. Model misses an entity in the ground truth:
 
@@ -43,15 +43,15 @@ The model gives the following possible cases:
 
 4. Model gives the wrong entity type:
 
-   "I love Singapore(person) and it has a lot of good restaurants."
+   "I love **Singapore(person)** and it has a lot of good restaurants."
 
 5. Models gets the wrong entity boundary:
 
-   "I love Singapore(city) and it has a lot of good restaurants."
+   "I **love Singapore(city)** and it has a lot of good restaurants."
 
 6. Model gives the wrong entity type and gets the wrong entity boundary:
 
-   "I love Singapore(person) and it has a lot of good restaurants."
+   "I **love Singapore(person)** and it has a lot of good restaurants."
 
 The complexity of the above cases requires a more sophisticated evaluation method than simply calculating precision/recall/F1 score as we do for simple classification tasks.
 
@@ -59,7 +59,7 @@ The complexity of the above cases requires a more sophisticated evaluation metho
 
 We are following the SemEval'13 (International Workshop on Semantic Evaluation) notion of evaluation metrics for NER. 
 
-In their original notion, they specifically distinguish if it allows the NER model to make the entity type correct or not. We think that entity type is very important. Imagine we run something like the SpaCy model and only get the ORG types as the target NER results. If entity type is wrongly labeled, we will not be able to get the target company or organization entities. With this in mind we simplify the evaluation method into two categories, namely Strict Mode and Loose Mode. For the original definition of SemEval'13 please check out the nice blog in [1].
+In their original notion, they specifically distinguish if it allows the NER model to make the entity type correct or not. We think that entity type is very important. Imagine we run something like the SpaCy model and only get the ORG types as the target NER results. If entity type is wrongly labeled, we will not be able to get the target company or organization entities. With this in mind we simplify the evaluation method into two categories, namely **Strict Mode** and **Loose Mode**. For the original definition of SemEval'13 please check out the nice blog in [1].
 
 * Strict Mode: Exact entity boundary and entity type are matched.
 
