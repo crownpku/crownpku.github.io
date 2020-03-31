@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Goodbye, Prof.Szeto
+title: Goodbye, Prof. Szeto
 published: true
 ---
 
