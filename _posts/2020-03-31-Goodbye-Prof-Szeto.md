@@ -22,6 +22,7 @@ It still hurts, Prof. Szeto, but I'm smiling while I'm typing this message as so
 
 
 Yours,
+
 Guan
 
 ![](/images/202003/7.jpg)
