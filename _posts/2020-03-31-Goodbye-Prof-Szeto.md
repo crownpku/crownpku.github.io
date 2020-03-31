@@ -21,8 +21,7 @@ You cared a lot about your students like me, our study and research, our daily l
 It still hurts, Prof. Szeto, but I'm smiling while I'm typing this message as some part of you will live on with people like me, and you will always be the smart, wise, naughty and laughing friend that I know, just that, I guess no more jokes from you for a while now. 
 
 
-![](/images/202003/7.jpg)
-
-
 Yours,
 Guan
+
+![](/images/202003/7.jpg)
