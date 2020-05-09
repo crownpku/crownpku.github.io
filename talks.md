@@ -6,7 +6,7 @@ permalink: /talks/
 
 # 2020
 
-* "Building a Chinese Chatbot: Data, Algorithms and Tools", Google Developer Group ML Developer Day, May.10th 2020
+* "Building a Chinese Chatbot: Data, Algorithms and Tools", [Google Developer Group ML Developer Day](https://www.meetup.com/en-AU/gdg-singapore/events/270121047/), May.10th 2020
 
 * "Hands-on with Data Science", 2-Day Internal Workshop for Swiss Re Colleagues, Singapore, Jan.9th-10th 2020
 
