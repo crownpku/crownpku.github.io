@@ -13,7 +13,7 @@ published: true
 
 # 设置Windows Insider并安装更新
 
-首先要确保电脑的BIOS选项中，Visualization虚拟化功能是打开的。
+首先要确保电脑的BIOS选项中，Virtualization虚拟化功能是打开的。
 
 BIOS设置好之后，我们需要在Windows中安装微软在2020年6月17日最新开放的Windows Insider Build。我们要首先注册为[Windows Insider](https://insider.windows.com/en-us/)，加入Windows的Dev Channel，然后更新Windows为build 20150或者以上。
 
