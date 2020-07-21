@@ -189,4 +189,4 @@ docker run -u $(id -u):$(id -g) -it --gpus all -p 8888:8888 tensorflow/tensorflo
 
 
 
-
+Reference: https://ubuntu.com/blog/getting-started-with-cuda-on-ubuntu-on-wsl-2
