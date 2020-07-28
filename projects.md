@@ -9,6 +9,10 @@ permalink: /projects/
 
 ##### [Awesome Chinese NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
 
+##### [Chatstack](http://chatstack.ai) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
+
+##### [Chinese Annotator](https://github.com/deepwel/Chinese-Annotator) | [Blog](http://www.crownpku.com//2017/11/09/%E6%9E%84%E6%83%B3-%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html)
+
 ##### [Federated_Shap](https://github.com/crownpku/federated_shap) | [Paper](https://arxiv.org/abs/1905.04519) | [Blog](http://www.crownpku.com/2019/05/18/%E7%94%A8Shapley%E5%80%BC%E8%A7%A3%E9%87%8A%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B.html)
 
 ##### [HK IPO Prediction](https://github.com/crownpku/hk_ipo_prediction) | [Blog](http://www.crownpku.com//2017/07/22/%E6%B8%AF%E8%82%A1%E6%96%B0%E8%82%A1%E9%A6%96%E6%97%A5%E5%8D%87%E5%B9%85%E9%A2%84%E6%B5%8B-%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE.html)
@@ -29,11 +33,7 @@ permalink: /projects/
 
 <br><br>
 
-# Contributor for Projects
-
-##### [Chatstack](http://chatstack.ai) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
-
-##### [Chinese Annotator](https://github.com/deepwel/Chinese-Annotator) | [Blog](http://www.crownpku.com//2017/11/09/%E6%9E%84%E6%83%B3-%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html)
+# Contributing to Projects
 
 ##### [Rasa NLU](https://github.com/RasaHQ/rasa_nlu) | [Blog](http://www.crownpku.com//2017/07/27/%E7%94%A8Rasa_NLU%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AD%E6%96%87NLU%E7%B3%BB%E7%BB%9F.html)
 
