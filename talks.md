@@ -5,6 +5,7 @@ permalink: /talks/
 ---
 
 # 2020
+* "AI impact on the Insurance value chain", invited talk for NUS Masters of Science in Business Analytics (MSBA), Aug.20th 2020 [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
 
 * "Building a Chinese Chatbot: Data, Algorithms and Tools", [Google Developer Group ML Developer Day](https://www.meetup.com/en-AU/gdg-singapore/events/270121047/), May.10th 2020, [Youtube](https://www.youtube.com/watch?v=yBReImxE2D0)
 
@@ -12,7 +13,7 @@ permalink: /talks/
 
 
 # 2019
-* "Chatstack: a full pipeline UI for building Chinese NLU system", Google Developers Experts Summit, Sunnyvale, CA, Oct.27th 2019, [blog](http://crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
+* "Chatstack: a full pipeline UI for building Chinese NLU system", Google Developers Experts Summit, Sunnyvale, CA, Oct.27th 2019, [blog_cn](http://crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
 
 * "Behind the Disruption of Open Source Technology", [FinovateAsia 2019](https://finance.knect365.com/finovateasia/), Singapore, Oct.16th 2019, [blog_en](http://www.crownpku.com/2019/09/20/Behind-the-Disruption-of-Open-Source-Technology.html) [blog_cn](http://www.crownpku.com/2019/08/08/%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%A1%8C%E4%B8%9A%E6%90%85%E5%B1%80%E8%80%85.html)
 
