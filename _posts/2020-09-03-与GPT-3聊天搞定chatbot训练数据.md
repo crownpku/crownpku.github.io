@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: 与GPT3聊天搞定chatbot训练数据
+title: 与GPT-3聊天搞定chatbot训练数据
 published: true
 ---
 
