@@ -109,7 +109,7 @@ then think the "clown" is just】
 
 ## GPT-3 的算法偏见
 
-关于算法和模型的公平性问题，我们在之前的一系列文章如[《机器学习模型的公平性评》](http://www.crownpku.com/2020/08/07/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E8%AF%84%E6%B5%8B.html)、[《Algorithms Auditing：你的代码公平正义吗？》](http://www.crownpku.com/2018/11/14/Algorithms-Auditing-%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E5%85%AC%E5%B9%B3%E6%AD%A3%E4%B9%89%E5%90%97.html)等有简单提及。GPT-3 给了我们一个很好的机会再来用实际的例子探讨关于算法偏见的问题。
+关于算法和模型的公平性问题，我们在之前的一系列文章如[《机器学习模型的公平性评测》](http://www.crownpku.com/2020/08/07/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E8%AF%84%E6%B5%8B.html)、[《Algorithms Auditing：你的代码公平正义吗？》](http://www.crownpku.com/2018/11/14/Algorithms-Auditing-%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E5%85%AC%E5%B9%B3%E6%AD%A3%E4%B9%89%E5%90%97.html)等有简单提及。GPT-3 给了我们一个很好的机会再来用实际的例子探讨关于算法偏见的问题。
 
 ![](/images/202009/1.png)
 
