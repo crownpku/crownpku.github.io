@@ -5,7 +5,9 @@ permalink: /talks/
 ---
 
 # 2020
-* "AI impact on the Insurance value chain", invited talk for NUS Masters of Science in Business Analytics (MSBA), Singapore, Aug.20th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
+* "AI impact on the Insurance value chain", invited talk for Department of Economics Hong Kong Baptist University, Hong Kong, Oct.8th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
+
+* "AI impact on the Insurance value chain", invited talk for  Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Aug.20th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
 
 * "Building a Chinese Chatbot: Data, Algorithms and Tools", [Google Developer Group ML Developer Day](https://www.meetup.com/en-AU/gdg-singapore/events/270121047/), Singapore, May.10th 2020, [Youtube](https://www.youtube.com/watch?v=yBReImxE2D0)
 
