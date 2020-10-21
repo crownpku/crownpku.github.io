@@ -21,8 +21,6 @@ permalink: /projects/
 
 ##### Motor Damage Evaluation | [Blog](http://www.crownpku.com/2020/05/02/%E8%87%AA%E5%8A%A8%E8%BD%A6%E6%8D%9F%E8%AF%84%E4%BC%B0-%E4%BD%BF%E7%94%A8Mask-R-CNN%E5%81%9A%E5%83%8F%E7%B4%A0%E7%BA%A7%E5%88%AB%E5%88%86%E5%89%B2.html)
 
-##### Predictive Underwriting | [Blog](http://www.crownpku.com/2020/02/05/Predictive-Underwriting-A-Technical-Case-Study.html)
-
 ##### [Share Everything](https://github.com/crownpku/share_everything) | [Blog](http://www.crownpku.com//2017/02/19/%E5%85%B1%E4%BA%AB%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%B8%80%E4%B8%AA%E5%AE%9E%E9%AA%8C.html)
 
 ##### [Small Chinese Corpus](https://github.com/crownpku/Small-Chinese-Corpus)
