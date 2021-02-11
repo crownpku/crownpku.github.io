@@ -3,6 +3,8 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
+
+
 # 2021
 * “Introduction to Computer Vision and Natural Language Processing”, Virtual Workshop of [Hands-on with Data Science](https://www.linkedin.com/posts/crownpku_we-did-it-after-3-years-of-giving-in-classroom-activity-6763608927608418304-Hmiw), Bangalore, Feb.4th 2021
 
