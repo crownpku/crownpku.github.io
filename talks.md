@@ -6,13 +6,13 @@ permalink: /talks/
 
 
 # 2021
-* “Responsible AI”, invited talk for [TensorFlow Everywhere Sri Lanka 2021](https://gdg.community.dev/events/details/google-gdg-cloud-sri-lanka-presents-tensorflow-everywhere-2021-day-02/), Sri Lanka, Mar.13th 2021
+* “Responsible AI”, invited talk for [TensorFlow Everywhere Sri Lanka 2021](https://gdg.community.dev/events/details/google-gdg-cloud-sri-lanka-presents-tensorflow-everywhere-2021-day-02/), Sri Lanka, Mar.13th 2021, [Youtube](https://www.youtube.com/watch?v=ounMXkd0Sr8&ab_channel=GDGSriLanka)
 
 * “Introduction to Computer Vision and Natural Language Processing”, Virtual Workshop of [Hands-on with Data Science](https://www.linkedin.com/posts/crownpku_we-did-it-after-3-years-of-giving-in-classroom-activity-6763608927608418304-Hmiw), Bangalore, Feb.4th 2021
 
 
 # 2020
-* “Responsible AI”, invited talk for [GDG DevFest Shanghai 2020](https://gdg.community.dev/events/details/google-gdg-shanghai-presents-devfest-shanghai-2020/), Shanghai, Nov.22nd 2020
+* “Responsible AI”, invited talk for [GDG DevFest Shanghai 2020](https://gdg.community.dev/events/details/google-gdg-shanghai-presents-devfest-shanghai-2020/), Shanghai, Nov.22nd 2020, [Bilibili](https://www.bilibili.com/video/BV1UD4y1X7BJ)
 
 * "AI impact on the Insurance value chain", invited talk for Department of Economics Hong Kong Baptist University, Hong Kong, Oct.8th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
 
