@@ -6,6 +6,8 @@ permalink: /talks/
 
 
 # 2021
+* "Introduction to Neural Networks", invited talk for [Medipol Global Summit](https://medipolsummit.org/), Istanbul, May.7th 2021, [Youtube](https://www.youtube.com/watch?v=ckHgcTWVXZw&ab_channel=GoogleDeveloperCommunitiesTurkey)
+
 * “Responsible AI”, invited talk for [TensorFlow Everywhere Sri Lanka 2021](https://gdg.community.dev/events/details/google-gdg-cloud-sri-lanka-presents-tensorflow-everywhere-2021-day-02/), Sri Lanka, Mar.13th 2021, [Youtube](https://www.youtube.com/watch?v=ounMXkd0Sr8&ab_channel=GDGSriLanka)
 
 * “Introduction to Computer Vision and Natural Language Processing”, Virtual Workshop of [Hands-on with Data Science](https://www.linkedin.com/posts/crownpku_we-did-it-after-3-years-of-giving-in-classroom-activity-6763608927608418304-Hmiw), Bangalore, Feb.4th 2021
