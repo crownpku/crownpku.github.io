@@ -6,6 +6,8 @@ permalink: /talks/
 
 
 # 2021
+* "Defining Insurance Risks – The Good, The Bad and The Ugly", webinar for [IFoA Asia Conference 2021](https://www.actuaries.org.uk/learn-develop/attend-event/asia-conference-2021-webinar-series), July.28th 2021
+
 * "Introduction to Neural Networks", invited talk for [Medipol Global Summit](https://medipolsummit.org/), Istanbul, May.7th 2021, [Youtube](https://www.youtube.com/watch?v=ckHgcTWVXZw&ab_channel=GoogleDeveloperCommunitiesTurkey)
 
 * “Responsible AI”, invited talk for [TensorFlow Everywhere Sri Lanka 2021](https://gdg.community.dev/events/details/google-gdg-cloud-sri-lanka-presents-tensorflow-everywhere-2021-day-02/), Sri Lanka, Mar.13th 2021, [Youtube](https://www.youtube.com/watch?v=ounMXkd0Sr8&ab_channel=GDGSriLanka)
