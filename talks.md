@@ -6,6 +6,8 @@ permalink: /talks/
 
 
 # 2021
+* "基于人工智能的次世代数字化风险评估", [第三届陆家嘴国际再保险会议](https://lirc.shie.com.cn/), Shanghai, Oct.27th 2021
+
 * "Defining Insurance Risks – The Good, The Bad and The Ugly", webinar for [IFoA Asia Conference 2021](https://www.actuaries.org.uk/learn-develop/attend-event/asia-conference-2021-webinar-series), July.28th 2021
 
 * "Introduction to Neural Networks", invited talk for [Medipol Global Summit](https://medipolsummit.org/), Istanbul, May.7th 2021, [Youtube](https://www.youtube.com/watch?v=ckHgcTWVXZw&ab_channel=GoogleDeveloperCommunitiesTurkey)
