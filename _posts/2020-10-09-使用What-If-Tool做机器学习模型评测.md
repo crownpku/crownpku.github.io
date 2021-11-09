@@ -9,8 +9,8 @@ published: true
 
 博主相关系列文章：
 
-* [初探工业界的公平性合规](http://crownpku.com/2020/09/11/%E5%88%9D%E6%8E%A2%E5%B7%A5%E4%B8%9A%E7%95%8C%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E5%90%88%E8%A7%84.html)
-* [机器学习模型的公平性评测](http://crownpku.com/2020/08/07/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E8%AF%84%E6%B5%8B.html)
+* [初探工业界的公平性合规](http://www.crownpku.com/2020/09/11/%E5%88%9D%E6%8E%A2%E5%B7%A5%E4%B8%9A%E7%95%8C%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E5%90%88%E8%A7%84.html)
+* [机器学习模型的公平性评测](http://www.crownpku.com/2020/08/07/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E8%AF%84%E6%B5%8B.html)
 * [Algorithms Auditing：你的代码公平正义吗？](http://www.crownpku.com/2018/11/14/Algorithms-Auditing-%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E5%85%AC%E5%B9%B3%E6%AD%A3%E4%B9%89%E5%90%97.html)
 
 本文我们来讨论下如何使用谷歌的 What-If-Tool 可视化仪表盘来对机器学习模型进行解释和公平性的评测。
