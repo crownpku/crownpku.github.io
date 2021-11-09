@@ -30,7 +30,7 @@ permalink: /talks/
 
 
 # 2019
-* "Chatstack: a full pipeline UI for building Chinese NLU system", Google Developers Experts Summit, Sunnyvale, CA, Oct.27th 2019, [blog_cn](http://crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
+* "Chatstack: a full pipeline UI for building Chinese NLU system", Google Developers Experts Summit, Sunnyvale, CA, Oct.27th 2019, [blog_cn](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)
 
 * "Behind the Disruption of Open Source Technology", [FinovateAsia 2019](https://finance.knect365.com/finovateasia/), Singapore, Oct.16th 2019, [blog_en](http://www.crownpku.com/2019/09/20/Behind-the-Disruption-of-Open-Source-Technology.html) [blog_cn](http://www.crownpku.com/2019/08/08/%E5%BC%80%E6%BA%90%E6%8A%80%E6%9C%AF%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%A1%8C%E4%B8%9A%E6%90%85%E5%B1%80%E8%80%85.html)
 
