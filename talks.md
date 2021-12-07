@@ -6,6 +6,8 @@ permalink: /talks/
 
 
 # 2021
+* "Federated Learning Framework", invited talk for Grab, Singapore, Dec.8th 2021, [blog_en](http://www.crownpku.com/2019/03/13/A-Practical-Overview-of-Federated-Learning.html)
+
 * "Introduction to Machine Learning", invited talk for [Explore ML, PSB Academy](https://gdsc.community.dev/events/details/developer-student-clubs-psb-academy-presents-explore-ml-beginner-track-introduction-to-machine-learning/), Singapore, Nov.20th 2021
 
 * "基于人工智能的次世代数字化风险评估", [第三届陆家嘴国际再保险会议](https://lirc.shie.com.cn/), Shanghai, Oct.27th 2021
