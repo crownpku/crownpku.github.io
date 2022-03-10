@@ -4,6 +4,8 @@ title: Talks
 permalink: /talks/
 ---
 
+# 2022
+* "AI @ Munich Re: Key AI applications and opportunities for NUS students", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Mar.10th 2022
 
 # 2021
 * "Federated Learning Framework", invited talk for Grab, Singapore, Dec.8th 2021, [blog_en](http://www.crownpku.com/2019/03/13/A-Practical-Overview-of-Federated-Learning.html)
@@ -26,7 +28,7 @@ permalink: /talks/
 
 * "AI impact on the Insurance value chain", invited talk for Department of Economics Hong Kong Baptist University, Hong Kong, Oct.8th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
 
-* "AI impact on the Insurance value chain", invited talk for  Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Aug.20th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
+* "AI impact on the Insurance value chain", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Aug.20th 2020, [blog_cn](http://www.crownpku.com/2020/08/19/%E4%BF%9D%E9%99%A9%E4%B8%9A%E4%BB%B7%E5%80%BC%E9%93%BE%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8.html)
 
 * "Building a Chinese Chatbot: Data, Algorithms and Tools", [Google Developer Group ML Developer Day](https://www.meetup.com/en-AU/gdg-singapore/events/270121047/), Singapore, May.10th 2020, [Youtube](https://www.youtube.com/watch?v=yBReImxE2D0)
 
