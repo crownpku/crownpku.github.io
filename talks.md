@@ -5,7 +5,7 @@ permalink: /talks/
 ---
 
 # 2023
-* "Responsible AI: Pinciples and Practices", invited talk for [Google I/O Extended George Town](https://gdg.community.dev/events/details/google-gdg-george-town-presents-google-io-extended-george-town-2023/), George Town Malaysia, Jun.24th 2023
+* "Responsible AI: Principles and Practices", invited talk for [Google I/O Extended George Town](https://gdg.community.dev/events/details/google-gdg-george-town-presents-google-io-extended-george-town-2023/), George Town Malaysia, Jun.24th 2023
 
 * "Responsible AI: Google's Principles and Singapore's Practice with Regulators and Financial Institutions", invited talk for [Google I/O Extended Singapore](https://gdg.community.dev/events/details/google-gdg-singapore-presents-google-io-extended-singapore-2023/), Singapore, May.27th 2023
 
