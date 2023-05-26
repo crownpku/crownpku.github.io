@@ -4,6 +4,15 @@ title: Talks
 permalink: /talks/
 ---
 
+# 2023
+* "Responsible AI: Pinciples and Practices", invited talk for [Google I/O Extended George Town](https://gdg.community.dev/events/details/google-gdg-george-town-presents-google-io-extended-george-town-2023/), George Town Malaysia, Jun.24th 2023
+
+* "Responsible AI: Google's Principles and Singapore's Practice with Regulators and Financial Institutions", invited talk for [Google I/O Extended Singapore](https://gdg.community.dev/events/details/google-gdg-singapore-presents-google-io-extended-singapore-2023/), Singapore, May.27th 2023
+
+* "Workshop on Machine Learning and Neural Networks", invited talk for [Machine Learning Study Jam](https://gdsc.community.dev/events/details/developer-student-clubs-multimedia-university-presents-machine-learning-study-jam/) at Multimedia University, Malaysia, May.13th 2023
+
+* "NUS Seminar Sharing: Augmented UW, Medical NLP, Working Experience and more", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Mar.23rd 2023
+
 # 2022
 * "AI @ Munich Re: Key AI applications and opportunities for NUS students", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Mar.10th 2022
 
