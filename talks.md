@@ -16,6 +16,8 @@ permalink: /talks/
 # 2022
 * "AI @ Munich Re: Key AI applications and opportunities for NUS students", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Mar.10th 2022
 
+* 
+
 # 2021
 * "Federated Learning Framework", invited talk for Grab, Singapore, Dec.8th 2021, [blog_en](http://www.crownpku.com/2019/03/13/A-Practical-Overview-of-Federated-Learning.html)
 
