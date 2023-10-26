@@ -5,6 +5,12 @@ permalink: /talks/
 ---
 
 # 2023
+* "Recent Advances in AI and Its Applications for The Insurance Industry", invited talk for Faculty of Computer Science and Information Technology, University of Sumatera Utara, Medan Indonesia, Oct.25th 2023, [Youtube](https://www.youtube.com/live/hxZ44ultTtk?si=OecYQiGsG9MSxaJf)
+
+* "Demystifying Large Language Models and Introducing GCP's Generative AI offerings", invited talk for [Google I/O Extended Da Nang](https://gdg.community.dev/events/details/google-gdg-cloud-da-nang-presents-google-io-extended-cloud-danang-2023/), Danang Vietnam, Aug.5th 2023
+
+* "Responsible AI: Principles and Practices", invited talk for [Google I/O Extended Medan](https://gdg.community.dev/events/details/google-gdg-medan-presents-google-io-extended-medan-2023/), Medan Indonesia, Jul.29th 2023
+
 * "Responsible AI: Principles and Practices", invited talk for [Google I/O Extended George Town](https://gdg.community.dev/events/details/google-gdg-george-town-presents-google-io-extended-george-town-2023/), George Town Malaysia, Jun.24th 2023
 
 * "Responsible AI: Google's Principles and Singapore's Practice with Regulators and Financial Institutions", invited talk for [Google I/O Extended Singapore](https://gdg.community.dev/events/details/google-gdg-singapore-presents-google-io-extended-singapore-2023/), Singapore, May.27th 2023
