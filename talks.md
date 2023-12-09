@@ -5,6 +5,10 @@ permalink: /talks/
 ---
 
 # 2023
+* "Responsible AI: Principles and Practices", invited talk for [Google Devfest 2023 Hong Kong](https://gdg.community.dev/events/details/google-gdg-cloud-hong-kong-presents-google-developer-group-cloud-hong-kong-devfest-2023/), Hong Kong, Dec.9th 2023
+
+* "ML for Everyone: No Coding with Google Sheets, Low Coding with MediaPipe, and Full Stack with Keras", invited talk for [Google DevFest 2023 Singapore](https://gdg.community.dev/events/details/google-gdg-singapore-presents-devfest-singapore-2023/), Singapore, Nov.18th 2023
+
 * "Recent Advances in AI and Its Applications for The Insurance Industry", invited talk for Faculty of Computer Science and Information Technology, University of Sumatera Utara, Medan Indonesia, Oct.25th 2023, [Youtube](https://www.youtube.com/live/hxZ44ultTtk?si=OecYQiGsG9MSxaJf)
 
 * "Demystifying Large Language Models and Introducing GCP's Generative AI offerings", invited talk for [Google I/O Extended Da Nang](https://gdg.community.dev/events/details/google-gdg-cloud-da-nang-presents-google-io-extended-cloud-danang-2023/), Danang Vietnam, Aug.5th 2023
