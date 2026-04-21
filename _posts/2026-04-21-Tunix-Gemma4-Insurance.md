@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Taming the Giant: Fine-Tuning Gemma 4 E2B-IT into an Insurance Expert
+title: Taming the Giant:Fine-Tuning Gemma 4 E2B-IT into an Insurance Expert
 published: true
 ---
 
@@ -56,7 +56,7 @@ This formatting ensures the model learns not just the *content* of insurance, bu
 
 We applied **LoRA (Low-Rank Adaptation)** with a Rank of 16 and Alpha of 32. This adds roughly 50MB of trainable parameters to the attention layers (q, k, v, o) while keeping the 5B base weights frozen.
 
-![Training Loss](images/202604/training_loss.png)
+![Training Loss](https://github.com/crownpku/crownpku.github.io/blob/master/images/202604/training_loss.png)
 
 **Key Stats:**
 - **Initial Loss:** ~6.99 (The model was essentially guessing).
@@ -92,7 +92,7 @@ During manual evaluation, JAX's JIT compiler struggled with the module state mut
 
 We didn't rely on "vibe checks" alone. We ran a full perplexity analysis on the test set.
 
-![Perplexity Comparison](images/202604/perplexity_comparison.png)
+![Perplexity Comparison](https://github.com/crownpku/crownpku.github.io/blob/master/images/202604/perplexity_comparison.png)
 
 Initially, we saw high perplexity (15.8) which we traced back to logit softcapping and broadcasting nuances in the JAX implementation. However, the *relative* improvement was undeniable. The fine-tuned model achieved a 4.2 perplexity on domain-specific questions, signifying a massive increase in confidence and accuracy for insurance queries.
 
