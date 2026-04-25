@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Building My Digital Twin:How I Distilled 27k Lines of Chat History into a Local LLM Wiki
+title: How I Distilled 27k Lines of AI Chat History into a Local LLM Wiki
 published: true
 ---
 
