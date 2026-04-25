@@ -11,6 +11,8 @@ Armed with the **Gemini CLI** and an export of my data, I successfully "distille
 
 Here is a breakdown of how I did it, why it challenges traditional RAG (Retrieval-Augmented Generation), and what my digital twin actually learned about me.
 
+---
+
 ### Phase 1: The Experiment and the Insights
 
 To get the data, I used Google Takeout to export a massive 27,190 lines of JSON file of my Gemini chat history (yes I talk to Gemini probably more than I talk to real people LOL). I then fed this raw data into my local terminal using the Gemini CLI. 
@@ -31,6 +33,8 @@ Here are a few highlights of what my digital clone synthesized:
 
 *   **Financial & Health Logs:** It accurately synthesized my Dollar Cost Averaging (DCA) investment strategies and even organized my recent medical recovery logs into a structured profile.
 
+---
+
 ### Phase 2: What Exactly is an LLM Wiki?
 
 This project was heavily inspired by AI visionary Andrej Karpathy's open-source "LLM Wiki" concept. 
@@ -44,6 +48,8 @@ The **LLM Wiki framework** flips this paradigm. Instead of retrieving from raw d
 2.  **The Wiki:** The LLM-maintained directory of Markdown files, including an `index.md`, a chronological `log.md`, and folders for Entities and Concepts.
 
 3.  **The Schema:** The set of rules telling the LLM how to structure the wiki, format files, and maintain cross-references.
+
+---
 
 ### Phase 3: The Result
 
