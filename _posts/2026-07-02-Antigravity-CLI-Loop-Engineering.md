@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Antigravity CLI: From Vibe Coding to Autonomous Loop Engineering
+title: Antigravity CLI:From Vibe Coding to Autonomous Loop Engineering
 published: true
 ---
 
