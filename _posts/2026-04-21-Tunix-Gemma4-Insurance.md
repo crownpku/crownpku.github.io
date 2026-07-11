@@ -54,7 +54,7 @@ This formatting ensures the model learns not just the *content* of insurance, bu
 
 We applied **LoRA (Low-Rank Adaptation)** with a Rank of 16 and Alpha of 32. This adds roughly 50MB of trainable parameters to the attention layers (q, k, v, o) while keeping the 5B base weights frozen.
 
-![Training & Validation Loss Curves](images/training_loss_curve.png)
+![Training & Validation Loss Curves](/images/training_loss_curve.png)
 
 **Key Stats:**
 - **Initial Training Loss (Step 1):** `5.2975`
