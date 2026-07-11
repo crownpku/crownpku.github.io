@@ -103,7 +103,7 @@ class DatasetIterable:
 
 We didn't rely on "vibe checks" alone. We ran a full perplexity analysis on the test set.
 
-![Perplexity Comparison](https://github.com/crownpku/crownpku.github.io/blob/master/images/202604/perplexity_comparison.png)
+![Perplexity Comparison](images/202604/perplexity_comparison.png)
 
 Initially, we saw high perplexity (15.8) which we traced back to logit softcapping and broadcasting nuances in the JAX implementation. However, the *relative* improvement was undeniable. The fine-tuned model achieved a 4.2 perplexity on domain-specific questions, signifying a massive increase in confidence and accuracy for insurance queries.
 
