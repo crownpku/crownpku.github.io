@@ -9,8 +9,6 @@ In the world of AI, generalists are common, but specialists are rare. Today, I'm
 
 This wasn't a standard "plug-and-play" exercise. We pushed the boundaries of **Tunix (JAX)** on a **Google Cloud TPU v5litepod-4**, encountered memory walls, patched library-level attention bugs, and learned some hard lessons about Per-Layer Embedding (PLE) tables. Here is the full, unvarnished technical journey.
 
-This project is part of the #TPUSprint. Google Cloud credits are provided for this project.
-
 ---
 
 ## 1. The Architecture: Why Gemma 4 E2B-IT?
@@ -56,27 +54,25 @@ This formatting ensures the model learns not just the *content* of insurance, bu
 
 We applied **LoRA (Low-Rank Adaptation)** with a Rank of 16 and Alpha of 32. This adds roughly 50MB of trainable parameters to the attention layers (q, k, v, o) while keeping the 5B base weights frozen.
 
-![Training Loss](https://github.com/crownpku/crownpku.github.io/blob/master/images/202604/training_loss.png)
+![Training & Validation Loss Curves](images/training_loss_curve.png)
 
 **Key Stats:**
-- **Initial Loss:** ~6.99 (The model was essentially guessing).
-- **Final Loss:** ~1.2 (Stable convergence after 500 steps).
+- **Initial Training Loss (Step 1):** `5.2975`
+- **Baseline Validation Loss (Step 0):** `3425.9580`
+- **Final Training Loss (Step 500):** `2.6825` (Stable, smooth minimization trajectory)
+- **Final Validation Loss (Step 499):** `1665.1027` (Clean convergence across the entire held-out validation set)
 - **Learning Rate:** 2e-5 with AdamW.
-- **Observation:** The loss plummeted within the first 100 steps as the model synchronized with the InsuranceQA-v2 response style.
+- **Observation:** The loss plummeted heavily within the first 50 steps as the model synchronized with the InsuranceQA-v2 response style, followed by a steady, regularized descent of validation loss all the way to Step 499.
 
 ---
 
 ## 5. The "Trough of Disillusionment": Deep-Dive Debugging
 
-This is where the project got real. We hit three major technical walls:
+This is where the project got real. We hit four major technical walls:
 
-### Wall #1: The 4D Attention Mask Bug
-When moving from training to inference on non-standard sequence lengths, Tunix's Gemma 4 implementation threw a `ValueError` in the `einsum` operation. The 3D attention mask wasn't broadcasting correctly to the 4D attention scores.
-**The Fix:** We had to dive into `tunix/models/gemma4/model.py` and implement a manual reshape to force 4D broadcasting:
-```python
-# The Patch that saved the project
-expanded_mask = jnp.reshape(attn_mask, (attn_mask.shape[0], -1, 1, attn_mask.shape[-1]))
-```
+### Wall #1: The 4D Attention Mask Bug (Resolved Natively in Tunix v0.1.8!)
+When moving from training to inference on non-standard sequence lengths in early versions of Tunix, the Gemma 4 implementation threw a `ValueError` in the `einsum` operation because the 3D attention mask wasn't broadcasting correctly to the 4D attention scores.
+**The Journey:** We initially had to patch the library's model code to force 4D broadcasting. However, **with the release of Tunix v0.1.8**, this bug has been natively fixed! The library now includes robust shape expansions inside `Attention.__call__` so that any custom sequence lengths or multi-device layouts broadcast out-of-the-box without manual workarounds.
 
 ### Wall #2: HBM Exhaustion during LoRA Merging
 Gemma 4's 4.7GB PLE table is a beast. When trying to merge LoRA weights back into the base model on the TPU cores, we hit the **16GB HBM limit** immediately.
@@ -85,6 +81,21 @@ Gemma 4's 4.7GB PLE table is a beast. When trying to merge LoRA weights back int
 ### Wall #3: JIT Tracing Errors on CPU
 During manual evaluation, JAX's JIT compiler struggled with the module state mutations in the `tunix.generate.Sampler`.
 **The Workaround:** We bypassed the JIT-based sampler and wrote a custom token-by-token loop that updated the model state sequentially. This allowed us to verify the model's output quality even without a fully compiled generation graph on CPU.
+
+### Wall #4: Python Generator Exhaustion in Tunix Evaluation Boundaries
+During multi-epoch evaluations, Tunix's `PeftTrainer` repeatedly calls `iter(eval_ds)` at designated step boundaries. 
+**The Issue**: If a standard Python generator object is passed as `eval_ds`, it gets exhausted during the Step 0 baseline evaluation. On subsequent boundaries (Step 50, 100, etc.), the generator immediately raises `StopIteration`, leading to a silent failure: `WARNING:absl:No eval examples found. Skipping eval metrics logging.`.
+**The Solution**: We implemented a reusable `DatasetIterable` class implementing `__iter__`. This class spawns and returns a fresh generator instance *every single time* the evaluation loop invokes `iter()`, successfully capturing the entire convergence curve:
+```python
+class DatasetIterable:
+    def __init__(self, gen_fn, *args, **kwargs):
+        self.gen_fn = gen_fn
+        self.args = args
+        self.kwargs = kwargs
+
+    def __iter__(self):
+        return self.gen_fn(*self.args, **self.kwargs)
+```
 
 ---
 
@@ -120,3 +131,4 @@ This journey from a generic E2B model to a specialized Insurance Expert was pave
 
 ---
 *Explore the full implementation at: [github.com/crownpku/tunix-gemma4-tpu](https://github.com/crownpku/tunix-gemma4-tpu)*
+
