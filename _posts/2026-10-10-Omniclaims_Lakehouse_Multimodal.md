@@ -5,7 +5,7 @@ title: "When a $1.5 Million Claim Depends on an X-Ray, a PDF, and a Phone Call: 
 published: true
 ---
 
-magine you are a senior claims examiner at a life insurance company on a Monday morning.
+Imagine you are a senior claims examiner at a life insurance company on a Monday morning.
 
 A **$1,500,000 Whole Life insurance claim** lands on your desk. The customer, a 62-year-old executive named **Robert Sterling**, bought the policy just **seven months ago**. When he applied, he qualified for the company’s cheapest "Preferred Plus" rate by signing a health declaration stating:
 
