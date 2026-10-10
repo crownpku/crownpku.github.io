@@ -30,7 +30,7 @@ If you work in an insurance company today—whether in Life, Health, Critical Il
 
 In most enterprises, **structured data** (tables of policy numbers, dates, and dollar amounts) lives in a data warehouse. Meanwhile, **unstructured data**—the X-rays, the PDF contracts, the doctor's notes, and the call center voice recordings—lives in a chaotic maze of file servers, buckets, and third-party tools.
 
-![Breaking the Insurance Data Maze: Siloed Pipelines vs. Google Cloud Multi-Modal Lakehouse](images/202610/01_siloed_vs_lakehouse_architecture.png)
+![Breaking the Insurance Data Maze: Siloed Pipelines vs. Google Cloud Multi-Modal Lakehouse](/images/202610/01_siloed_vs_lakehouse_architecture.png)
 
 Historically, if an engineering team wanted AI to check all four clues together, they had to build a fragile "Rube Goldberg machine":
 - **System 1**: A SQL database for the policy numbers.
@@ -54,7 +54,7 @@ Think of a traditional data warehouse as a **librarian who can only read spreads
 
 Google Cloud’s **BigQuery Lakehouse** upgrades that librarian into a **multi-modal detective** using four simple building blocks:
 
-![The 4-Act Detective Story: How the Lakehouse Connects Every Clue for One Customer](images/202610/02_four_act_customer_storyline.png)
+![The 4-Act Detective Story: How the Lakehouse Connects Every Clue for One Customer](/images/202610/02_four_act_customer_storyline.png)
 
 1. **Apache Iceberg Tables (For the Numbers & Dates)**:
    Instead of locking policy data inside a proprietary format, we store our structured policy and claim records as open-standard **Apache Iceberg** tables (`PARQUET` files) directly in our private Google Cloud Storage bucket.
@@ -86,7 +86,7 @@ Let’s return to **Robert Sterling**, the customer from the beginning of our st
 
 Look at what happens when BigQuery compares three real NIH radiographs side-by-side in **Act II (Visual X-Ray Forensics)**:
 
-![Case Study #1: Robert Sterling ($1.5M Whole Life) — The Concealed Pacemaker Mystery](images/202610/03_robert_sterling_pacemaker_comparison.png)
+![Case Study #1: Robert Sterling ($1.5M Whole Life) — The Concealed Pacemaker Mystery](/images/202610/03_robert_sterling_pacemaker_comparison.png)
 
 - **Panel 1 (Left)** shows a normal, healthy chest X-ray (`NIH PMC12127709`)—what a "Preferred Plus" customer’s chest should look like when they buy a policy.
 - **Panel 2 (Center)** is Robert’s emergency room X-ray (`NIH PMC7033380, Panel A`). Even if you aren’t a radiologist, look at the upper-left side of his chest (the right side of the image): there is a circular metal **cardiac pacemaker generator** with bright white wires snaking directly into a massively enlarged heart!
@@ -108,7 +108,7 @@ To beat traditional fraud detection, the fraudster opens the stolen X-ray image 
 
 Why? Because traditional insurance systems check for duplicate files using a cryptographic file hash (like `MD5` or `SHA-256`). Changing even one single pixel scrambles the entire hash code (`7961cd93...` becomes `5e2739c7...`), tricking the computer into thinking it is a brand-new medical file!
 
-![Case Study #2: Victor Krum ($350K Critical Illness) — Catching a Recycled X-Ray Fraud Ring](images/202610/04_victor_krum_duplicate_xray_fraud.png)
+![Case Study #2: Victor Krum ($350K Critical Illness) — Catching a Recycled X-Ray Fraud Ring](/images/202610/04_victor_krum_duplicate_xray_fraud.png)
 
 Here is how **BigQuery `VECTOR_SEARCH`** stops this fraud ring cold:
 - Unlike a file hash that looks at raw bytes, **`gemini-embedding-2-preview`** looks at the **visual anatomy** of the image—the shape of the ribs, the curve of the diaphragm, and the Left Upper Lobe lung mass (`NIH MedPix MPX1219`).
@@ -125,7 +125,7 @@ Consider **Marcus Thorne** (`CLM-ADD-1003`). Marcus held a **$1,000,000 Base Ter
 
 When Marcus died in a tragic fall, the paper claim form submitted to the insurer said: *"Accidental slip on a recreational walking trail"*—requesting the full **$2,000,000** double payout.
 
-![Case Study #3: Marcus Thorne ($2M Claim) — Resolving a Paper-vs-Audio Rider Conflict](images/202610/06_marcus_thorne_mountaineering_exclusion.png)
+![Case Study #3: Marcus Thorne ($2M Claim) — Resolving a Paper-vs-Audio Rider Conflict](/images/202610/06_marcus_thorne_mountaineering_exclusion.png)
 
 When the Lakehouse examines all four clues together, a nuanced story emerges:
 1. **The Trauma X-Ray (`NIH PMC5702695`)**: BigQuery Vector Search matches a high-energy displaced collarbone fracture (`0.9547` similarity) typical of a severe vertical fall, not a flat walking trail slip.
@@ -198,7 +198,7 @@ FROM ML.GENERATE_TEXT(
 
 When we ran all **5 Hero Life & Living Benefits Claims** ($4,600,000 in total claimed benefits) through our live Google Cloud Lakehouse pipeline, the system achieved **5 out of 5 exact visual pathology matches** (`0.9355` to `1.0000` cosine similarity) and **5 out of 5 accurate payout decisions**:
 
-![Live Google Cloud Lakehouse Results: 5 Hero Claims ($4.60M Total Exposure)](images/202610/05_portfolio_adjudication_dashboard.png)
+![Live Google Cloud Lakehouse Results: 5 Hero Claims ($4.60M Total Exposure)](/images/202610/05_portfolio_adjudication_dashboard.png)
 
 Look at the two-sided business impact:
 - **$1,750,000 Fast-Tracked to Honest Families**:
