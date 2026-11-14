@@ -7,6 +7,14 @@ permalink: /projects/
 
 # Leading Projects
 
+##### OmniClaims Lakehouse | [Blog](https://www.crownpku.com/2026/10/10/Omniclaims_Lakehouse_Multimodal.html)
+
+##### FunctionGemma-Jev | [Blog](https://www.crownpku.com/2026/09/28/Teaching-FunctionGemma-to-Route-Agent-Tools-Without-Writing-Essays.html)
+
+##### [Tunix-Gemma4-TPU](https://github.com/crownpku/tunix-gemma4-tpu) | [Blog](https://www.crownpku.com/2026/04/21/Tunix-Gemma4-Insurance.html)
+
+##### Personal LLM Wiki (Digital Twin) | [Blog](https://www.crownpku.com/2026/04/26/Build-My-Digital-Twin-with-LLM-wiki.html)
+
 ##### [Awesome Chinese NLP](https://github.com/crownpku/Awesome-Chinese-NLP)
 
 ##### [Chatstack](http://chatstack.ai) | [Blog](http://www.crownpku.com/2019/08/16/Chatstack-%E6%90%AD%E5%BB%BA%E4%B8%AD%E6%96%87NLU%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E7%B3%BB%E7%BB%9F.html)

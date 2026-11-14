@@ -4,6 +4,38 @@ title: Talks
 permalink: /talks/
 ---
 
+# 2026
+* "Agentic AI: Scaling Adoption with Trust, Resilience and Control", panel discussion for Association of Banks in Singapore (ABS), Singapore, Oct.1st 2026
+
+* "AI Adoption in Insurance: From Experimentation to Enterprise Scale", panel discussion at Asian Actuarial Conference 2026 (#AAC26), Singapore, Aug.20th 2026
+
+* "Building the future with Antigravity CLI and Gemini", lightning talk at Google I/O Connect China 2026, Shanghai, Aug.13th 2026
+
+* "From LLM Wiki to TPU Fine-Tuning: Fast-Track Agentic AI with Antigravity CLI and Gemini" & Builder's Track Workshop, Build with Gemini Singapore, Singapore, Aug.5th 2026
+
+* "Architecting the Future - Vibe Coding with Antigravity CLI and Gemini 3.5 Flash", Google I/O Extended Singapore 2026, Singapore, Jun.27th 2026
+
+* "Cents & Sensibility: Collaborative Intelligence in Finance, Banking and Fintech", panel discussion, Singapore, Jun.27th 2026
+
+* "Gemini CLI: From Vibe Coding to Vibe Living within a Terminal", Build with AI Singapore Workshop (Mar.29th) & GDG Singapore Meetup (Feb.25th), Singapore, Feb.–Mar. 2026
+
+* "AI Adoption from an Insurer's Point of View", keynote presentation, Singapore, Feb.5th 2026
+
+# 2025
+* "GenAI: from a developer perspective", invited talk for Masters of Science in Business Analytics (MSBA) National University of Singapore, Singapore, Nov.4th 2025
+
+* "Cloud Hands-on Lab: Build and Learn ADK", AI Asia Workshop, Singapore, Aug.28th 2025
+
+* "Foundation Models for High-Value Industry Transformation", panel discussion at Opening Ceremony of Microsoft Research Asia Singapore Lab, Singapore, Jul.25th 2025
+
+* "Introductory Hands-on Lab with Gemini", Google I/O Extended Ho Chi Minh City, Vietnam, Jul.21st 2025
+
+* "How did I transfer from Training Xgboost Models to Building Production-Ready and Enterprise-Level GenAI Solutions", invited talk, Jul.16th 2025
+
+* "Build with AI Malaysia: Hands-on Code Lab on Generative AI using Gemini", Universiti Putra Malaysia (May.15th) & Universiti Sains Malaysia (May.10th), Malaysia, May 2025
+
+* "Introductory Hands-on Lab with Gemini", Google Developer Space Singapore, Singapore, Apr.30th 2025
+
 # 2023
 * "Responsible AI: Principles and Practices", invited talk for [Google Devfest 2023 Hong Kong](https://gdg.community.dev/events/details/google-gdg-cloud-hong-kong-presents-google-developer-group-cloud-hong-kong-devfest-2023/), Hong Kong, Dec.9th 2023
 
