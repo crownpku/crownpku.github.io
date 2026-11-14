@@ -36,6 +36,27 @@ permalink: /talks/
 
 * "Introductory Hands-on Lab with Gemini", Google Developer Space Singapore, Singapore, Apr.30th 2025
 
+* "Build with AI: Hands on with Gemini", Universiti Teknologi Malaysia (UTM), Malaysia, Apr.19th 2025
+
+# 2024
+* "Introduction to Neural Networks to K12 students", National Institute of Education (NTU) & Singapore Indian Development Association (SINDA), Singapore, Sep.2nd 2024
+
+* "Google IOX Surabaya: Learnings from Generative AI Implementations", Google I/O Extended Surabaya, Surabaya Indonesia, Jul.27th 2024
+
+* "Google IOX Manila: Learnings from Generative AI Implementations", Google I/O Extended Manila, Manila Philippines, Jul.13th 2024
+
+* "Learnings from GenAI Implementations", invited talk for Data Science Meetup Singapore at Google Developer Space, Singapore, Jun.19th 2024
+
+* "Decoding the GenAI Value Chain: Best Practices for Industry Leaders", Singapore, Jun.13th 2024
+
+* "Learnings from GenAI Implementations", invited talk for McKinsey Meetup Singapore, Singapore, Jun.11th 2024
+
+* "Build with AI - Bangkok", Google Developer Groups (GDG) Bangkok Workshop, Bangkok Thailand, May.19th 2024
+
+* "Recent Advances in AI and Its Applications", invited talk for GDSC BINUS Malang ft. Nanyang Polytechnic Singapore, Mar.30th 2024
+
+* "Gen AI Labs: Duet AI - Singapore", Google Cloud Gen AI Labs Workshop, Singapore, Mar.9th 2024
+
 # 2023
 * "Responsible AI: Principles and Practices", invited talk for [Google Devfest 2023 Hong Kong](https://gdg.community.dev/events/details/google-gdg-cloud-hong-kong-presents-google-developer-group-cloud-hong-kong-devfest-2023/), Hong Kong, Dec.9th 2023
 
